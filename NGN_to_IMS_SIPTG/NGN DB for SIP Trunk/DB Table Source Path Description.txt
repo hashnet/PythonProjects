@@ -1,0 +1,18 @@
+FDN to TG to IP
+Bam-tbl_CalleeAna.csv: Number analysis -> Service prefix configuration -> List Called Number Analysis(LST CNACLD) -> tbl_CalleeAna
+Bam-tbl_RouteAna.csv: Route and trunk management -> Route analysis -> Add Route Analysis(ADD RTANA) -> tbl_RouteAna
+Bam-tbl_Route.csv: Route and trunk management -> Route -> Add Route(ADD RT) -> tbl_Route
+Bam-tbl_SubRoute.csv: Route and trunk management -> Sub-route -> Modify Sub-route(MOD SRT) -> tbl_SubRoute
+Bam-tbl_SubTrkGrp.csv: Route and trunk management -> Sub-route -> Modify Sub-route(MOD SRT) -> tbl_SubTrkGrp
+Bam-tbl_TrunkGroup.csv: Route and trunk management -> Sub-route -> Modify Sub-route(MOD SRT) -> tbl_TrunkGroup
+Bam-tbl_SipIPPairConfig.csv: Route and trunk management -> Trunk group -> Trunk group append configuration -> Add Trunk Group Appendant(ADD TGAP) -> tbl_SipIPPairConfig
+
+
+Discrimination Group
+Bam-tbl_TrkGrpToDistGrp.csv: Number analysis -> Call barring data -> Caller number discrimination group -> Remove Caller Number Discrimination Group(RMV CLRDSN) -> tbl_TrkGrpToDistGrp
+Bam-tbl_CallerDistGroupISP.csv: Number analysis -> Call barring data -> Caller number discrimination group -> Remove Caller Number Discrimination Group(RMV CLRDSN) -> tbl_CallerDistGroupISP
+
+
+Forwarding:
+Bam-tbl_CallPreProc.csv: Number analysis -> Prefix processing -> Add Call Prefix Processing(ADD PFXPRO) -> tbl_CallPreProc
+Bam-tbl_DBChange.csv: Number analysis -> Prefix processing -> Add Call Prefix Processing(ADD PFXPRO) -> tbl_DBChange

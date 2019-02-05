@@ -1,0 +1,386 @@
+1<BEGINFILE>
+<SUBBEGIN
+	SUBID=+96896397264;
+	<IMPIBEGIN
+		IMPI=+96896397264@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=sip:+96896397264@ims.ooredoo.om;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=tel:+96896397264;
+	<IMPUEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96895500759;
+	<IMPIBEGIN
+		IMPI=+96895500759@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=tel:+96895500759;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=sip:+96895500759@ims.ooredoo.om;
+	<IMPUEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Services;
+		ServiceData=<any>
+<xcap:MMTelServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:version>1</xcap:version>
+                                  <xcap:complete-originating-identity-presentation>
+                                    <xcap:originating-identity-presentation active="true"/>
+                                    <xcap:operator-originating-identity-presentation authorized="true">
+                                      <xcap:restriction-override>override-not-active</xcap:restriction-override>
+                                    </xcap:operator-originating-identity-presentation>
+                                  </xcap:complete-originating-identity-presentation>
+                                </xcap:MMTelServices>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-ODB-Information;
+		ServiceData=<any><xcap:OdbForImsOrientedServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:OdbForImsMultimediaTelephonyServices>
+                                    <xcap:BarringOfSupplementaryServicesManagement>false</xcap:BarringOfSupplementaryServicesManagement>
+                                    <xcap:BarringOfUSSD>false</xcap:BarringOfUSSD>
+                                  </xcap:OdbForImsMultimediaTelephonyServices>
+                                </xcap:OdbForImsOrientedServices><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=TAS-UPDATE-DATA;
+		ServiceData=<any><TAS-UPDATE-DATA><ims-attr>0</ims-attr></TAS-UPDATE-DATA><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Extension;
+		ServiceData=<any><xcap:MMTel-extension xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:basic-part>
+                                    <xcap:call-source-code>0</xcap:call-source-code>
+                                    <xcap:call-out-authority>
+                                      <xcap:local>true</xcap:local>
+                                      <xcap:local-toll>true</xcap:local-toll>
+                                      <xcap:national-toll>true</xcap:national-toll>
+                                      <xcap:international-toll>true</xcap:international-toll>
+                                    </xcap:call-out-authority>
+                                  </xcap:basic-part>
+                                </xcap:MMTel-extension><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-CAMEL-Services;
+		ServiceData=<any>
+<xcap:im-csi-information xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:supported-imssf-camel-phases>phase2</xcap:supported-imssf-camel-phases>
+                                  <xcap:camel-subscription-info>
+                                    <xcap:o-IM-CSI>
+                                      <xcap:o-bcsm-camel-TDP-data-list>
+                                        <xcap:o-bcsm-camel-TDP-data>
+                                          <xcap:o-bcsm-trigger-detection-point>collected-info</xcap:o-bcsm-trigger-detection-point>
+                                          <xcap:service-key>200</xcap:service-key>
+                                          <xcap:gsm-SCF-address>96895001060</xcap:gsm-SCF-address>
+                                          <xcap:default-call-handling>release-call</xcap:default-call-handling>
+                                        </xcap:o-bcsm-camel-TDP-data>
+                                      </xcap:o-bcsm-camel-TDP-data-list>
+                                      <xcap:camel-capability-handling>2</xcap:camel-capability-handling>
+                                    </xcap:o-IM-CSI>
+                                  </xcap:camel-subscription-info>
+                                </xcap:im-csi-information>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96894297669;
+	<IMPIBEGIN
+		IMPI=+96894297669@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=sip:+96894297669@ims.ooredoo.om;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=tel:+96894297669;
+	<IMPUEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Extension;
+		ServiceData=<any><xcap:MMTel-extension xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:basic-part>
+                                    <xcap:call-source-code>0</xcap:call-source-code>
+                                    <xcap:call-out-authority>
+                                      <xcap:local>true</xcap:local>
+                                      <xcap:local-toll>true</xcap:local-toll>
+                                      <xcap:national-toll>true</xcap:national-toll>
+                                      <xcap:international-toll>true</xcap:international-toll>
+                                    </xcap:call-out-authority>
+                                  </xcap:basic-part>
+                                </xcap:MMTel-extension><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-CAMEL-Services;
+		ServiceData=<any>
+<xcap:im-csi-information xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:supported-imssf-camel-phases>phase2</xcap:supported-imssf-camel-phases>
+                                  <xcap:camel-subscription-info>
+                                    <xcap:o-IM-CSI>
+                                      <xcap:o-bcsm-camel-TDP-data-list>
+                                        <xcap:o-bcsm-camel-TDP-data>
+                                          <xcap:o-bcsm-trigger-detection-point>collected-info</xcap:o-bcsm-trigger-detection-point>
+                                          <xcap:service-key>200</xcap:service-key>
+                                          <xcap:gsm-SCF-address>96895001060</xcap:gsm-SCF-address>
+                                          <xcap:default-call-handling>release-call</xcap:default-call-handling>
+                                        </xcap:o-bcsm-camel-TDP-data>
+                                      </xcap:o-bcsm-camel-TDP-data-list>
+                                      <xcap:camel-capability-handling>2</xcap:camel-capability-handling>
+                                    </xcap:o-IM-CSI>
+                                  </xcap:camel-subscription-info>
+                                </xcap:im-csi-information>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Services;
+		ServiceData=<any>
+<xcap:MMTelServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:version>1</xcap:version>
+                                  <xcap:complete-originating-identity-presentation>
+                                    <xcap:originating-identity-presentation active="true"/>
+                                    <xcap:operator-originating-identity-presentation authorized="true">
+                                      <xcap:restriction-override>override-not-active</xcap:restriction-override>
+                                    </xcap:operator-originating-identity-presentation>
+                                  </xcap:complete-originating-identity-presentation>
+                                </xcap:MMTelServices>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=TAS-UPDATE-DATA;
+		ServiceData=<any><TAS-UPDATE-DATA><ims-attr>0</ims-attr></TAS-UPDATE-DATA><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-ODB-Information;
+		ServiceData=<any><xcap:OdbForImsOrientedServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:OdbForImsMultimediaTelephonyServices>
+                                    <xcap:BarringOfSupplementaryServicesManagement>false</xcap:BarringOfSupplementaryServicesManagement>
+                                    <xcap:BarringOfUSSD>false</xcap:BarringOfUSSD>
+                                  </xcap:OdbForImsMultimediaTelephonyServices>
+                                </xcap:OdbForImsOrientedServices><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+<SUBEND
+<SUBBEGIN
+	SUBID=test4;
+	<IMPIBEGIN
+		IMPI=test4@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=sip:test4@ims.ooredoo.om;
+	<IMPUEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96896775795;
+	<IMPIBEGIN
+		IMPI=+96896775795@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=tel:+96896775795;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=sip:+96896775795@ims.ooredoo.om;
+	<IMPUEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Services;
+		ServiceData=<any>
+<xcap:MMTelServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:version>1</xcap:version>
+                                  <xcap:complete-originating-identity-presentation>
+                                    <xcap:originating-identity-presentation active="true"/>
+                                    <xcap:operator-originating-identity-presentation authorized="true">
+                                      <xcap:restriction-override>override-not-active</xcap:restriction-override>
+                                    </xcap:operator-originating-identity-presentation>
+                                  </xcap:complete-originating-identity-presentation><xcap:complete-communication-diversion xmlns:urn="urn:ietf:params:xml:ns:common-policy"><xcap:communication-diversion active="true"><urn:ruleset><urn:rule id="call-forwarding-busy">
+                                  <urn:conditions>
+                                    <xcap:busy/>
+                                  </urn:conditions>
+                                </urn:rule></urn:ruleset></xcap:communication-diversion><xcap:operator-communication-diversion authorized="true"><xcap:communication-retention-on-invocation>clear-communication-on-invocation-of-diversion</xcap:communication-retention-on-invocation><xcap:retention-when-diverting-rejected-at-diverted-to-user>no-action-at-diverting-user</xcap:retention-when-diverting-rejected-at-diverted-to-user><xcap:total-number-of-diversions-for-each-communication>5</xcap:total-number-of-diversions-for-each-communication><xcap:cdiv-indication-timer>0</xcap:cdiv-indication-timer><xcap:communication-forwarding-on-no-reply-timer>30</xcap:communication-forwarding-on-no-reply-timer><xcap:cdivn-buffer-timer>0</xcap:cdivn-buffer-timer><xcap:communication-forwarding-on-user-not-reachable-cdr/><xcap:call-forwarding-within-group-only/><xcap:call-forwarding-of-incoming-centrex-call/></xcap:operator-communication-diversion></xcap:complete-communication-diversion>
+                                </xcap:MMTelServices>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-CAMEL-Services;
+		ServiceData=<any>
+<xcap:im-csi-information xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:supported-imssf-camel-phases>phase2</xcap:supported-imssf-camel-phases>
+                                  <xcap:camel-subscription-info>
+                                    <xcap:o-IM-CSI>
+                                      <xcap:o-bcsm-camel-TDP-data-list>
+                                        <xcap:o-bcsm-camel-TDP-data>
+                                          <xcap:o-bcsm-trigger-detection-point>collected-info</xcap:o-bcsm-trigger-detection-point>
+                                          <xcap:service-key>80</xcap:service-key>
+                                          <xcap:gsm-SCF-address>96895001060</xcap:gsm-SCF-address>
+                                          <xcap:default-call-handling>release-call</xcap:default-call-handling>
+                                        </xcap:o-bcsm-camel-TDP-data>
+                                      </xcap:o-bcsm-camel-TDP-data-list>
+                                      <xcap:camel-capability-handling>2</xcap:camel-capability-handling>
+                                    </xcap:o-IM-CSI>
+                                  </xcap:camel-subscription-info>
+                                </xcap:im-csi-information>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Extension;
+		ServiceData=<any>
+<xcap:MMTel-extension xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:basic-part>
+                                    <xcap:call-source-code>0</xcap:call-source-code>
+                                    <xcap:call-out-authority>
+                                      <xcap:local>true</xcap:local>
+                                      <xcap:local-toll>true</xcap:local-toll>
+                                      <xcap:national-toll>true</xcap:national-toll>
+                                      <xcap:international-toll>true</xcap:international-toll>
+                                    </xcap:call-out-authority>
+                                  </xcap:basic-part>
+                                </xcap:MMTel-extension>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=TAS-UPDATE-DATA;
+		ServiceData=<any><TAS-UPDATE-DATA><ims-attr>0</ims-attr></TAS-UPDATE-DATA><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-ODB-Information;
+		ServiceData=<any>
+<xcap:OdbForImsOrientedServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:OdbForImsMultimediaTelephonyServices>
+                                    <xcap:BarringOfSupplementaryServicesManagement>false</xcap:BarringOfSupplementaryServicesManagement>
+                                    <xcap:BarringOfUSSD>false</xcap:BarringOfUSSD>
+                                  </xcap:OdbForImsMultimediaTelephonyServices>
+                                </xcap:OdbForImsOrientedServices>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96896090962;
+	<IMPIBEGIN
+		IMPI=+96896090962@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=tel:+96896090962;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=sip:+96896090962@ims.ooredoo.om;
+	<IMPUEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96897376834;
+	<IMPIBEGIN
+		IMPI=+96897376834@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=sip:+96897376834@ims.ooredoo.om;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=tel:+96897376834;
+	<IMPUEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96897642146;
+	<IMPIBEGIN
+		IMPI=+96897642146@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=sip:+96897642146@ims.ooredoo.om;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=tel:+96897642146;
+	<IMPUEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96894827570;
+	<IMPIBEGIN
+		IMPI=+96894827570@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=sip:+96894827570@ims.ooredoo.om;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=tel:+96894827570;
+	<IMPUEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Services;
+		ServiceData=<any>
+<xcap:MMTelServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:version>1</xcap:version>
+                                  <xcap:complete-originating-identity-presentation>
+                                    <xcap:originating-identity-presentation active="true"/>
+                                    <xcap:operator-originating-identity-presentation authorized="true">
+                                      <xcap:restriction-override>override-not-active</xcap:restriction-override>
+                                    </xcap:operator-originating-identity-presentation>
+                                  </xcap:complete-originating-identity-presentation>
+                                </xcap:MMTelServices>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Extension;
+		ServiceData=<any><xcap:MMTel-extension xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:basic-part>
+                                    <xcap:call-source-code>0</xcap:call-source-code>
+                                    <xcap:call-out-authority>
+                                      <xcap:local>true</xcap:local>
+                                      <xcap:local-toll>true</xcap:local-toll>
+                                      <xcap:national-toll>true</xcap:national-toll>
+                                      <xcap:international-toll>true</xcap:international-toll>
+                                    </xcap:call-out-authority>
+                                  </xcap:basic-part>
+                                </xcap:MMTel-extension><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-CAMEL-Services;
+		ServiceData=<any>
+<xcap:im-csi-information xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:supported-imssf-camel-phases>phase2</xcap:supported-imssf-camel-phases>
+                                  <xcap:camel-subscription-info>
+                                    <xcap:o-IM-CSI>
+                                      <xcap:o-bcsm-camel-TDP-data-list>
+                                        <xcap:o-bcsm-camel-TDP-data>
+                                          <xcap:o-bcsm-trigger-detection-point>collected-info</xcap:o-bcsm-trigger-detection-point>
+                                          <xcap:service-key>200</xcap:service-key>
+                                          <xcap:gsm-SCF-address>96895001060</xcap:gsm-SCF-address>
+                                          <xcap:default-call-handling>release-call</xcap:default-call-handling>
+                                        </xcap:o-bcsm-camel-TDP-data>
+                                      </xcap:o-bcsm-camel-TDP-data-list>
+                                      <xcap:camel-capability-handling>2</xcap:camel-capability-handling>
+                                    </xcap:o-IM-CSI>
+                                  </xcap:camel-subscription-info>
+                                </xcap:im-csi-information>
+<Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=IMS-ODB-Information;
+		ServiceData=<any><xcap:OdbForImsOrientedServices xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:OdbForImsMultimediaTelephonyServices>
+                                    <xcap:BarringOfSupplementaryServicesManagement>false</xcap:BarringOfSupplementaryServicesManagement>
+                                    <xcap:BarringOfUSSD>false</xcap:BarringOfUSSD>
+                                  </xcap:OdbForImsMultimediaTelephonyServices>
+                                </xcap:OdbForImsOrientedServices><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=TAS-UPDATE-DATA;
+		ServiceData=<any><TAS-UPDATE-DATA><ims-attr>0</ims-attr></TAS-UPDATE-DATA><Compress>0</Compress><CheckSum>0</CheckSum></any>;
+	<AliasRepositdataDataEND
+<SUBEND
+<SUBBEGIN
+	SUBID=+96894439521;
+	<IMPIBEGIN
+		IMPI=+96894439521@ims.ooredoo.om;
+	<IMPIEND
+	<IMPUBEGIN
+		IMPU=sip:+96894439521@ims.ooredoo.om;
+	<IMPUEND
+	<IMPUBEGIN
+		IMPU=tel:+96894439521;
+	<IMPUEND
+	<AliasRepositdataDataBEGIN
+		ServiceIndication=MMTEL-Extension;
+		ServiceData=<any><xcap:MMTel-extension xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap">
+                                  <xcap:basic-part>
+                                    <xcap:call-source-code>0</xcap:call-source-code>
+                                    <xcap:call-out-authority>
+                                      <xcap:local>true</xcap:local>
+                                      <xcap:local-toll>true</xcap:local-toll>
+                                      <xcap:national-toll>true</xcap:national-toll>
+                                      <xcap:international-toll>true</xcap:international-toll>
+                                    </xcap:call-out-authority>
+                                  </xcap:basic-part>
+                                </xcap:MMTel-extension><Compress>0</Compress><CheckSum>0</CheckSum></any>;

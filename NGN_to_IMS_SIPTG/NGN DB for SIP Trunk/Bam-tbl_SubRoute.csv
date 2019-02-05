@@ -1,0 +1,804 @@
+tbl_SubRoute(tbl_SubRoute)
+
+Export Time:2018/06/03 10:09:18
+
+Sub-route number,Sub-route name,Office direction number,Group selection mode,Is rented subroute,Whether modified rent time,Total rented time,Time unit(minute or second),Invalid if timeout,Time offset,Last modify rent time date,Master/Slave type,Route identify number,Indirect sub-route number,Callee sending change index,Charge with number changed,State
+'0,SOISS-SOMSS,'0,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2009-06-16 11:30:34:110,Master,65535,NONE,'0,'00000000,1
+1,SOISS-MUMSS,1,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-02 11:21:55:750,Master,65535,NONE,'0,'00000000,1
+2,MUMSS1-DPC2,1,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-02 16:27:56:500,Master,65535,NONE,'0,'00000000,1
+12,OT,12,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2009-06-20 15:45:15:060,Master,65535,NONE,'0,'00000000,1
+13,OM,12,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2009-12-26 18:01:51:326,Master,65535,NONE,'0,'00000000,1
+20,OT-GMP1-CCS,20,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-10 17:11:58:390,Master,65535,NONE,'0,'00000000,1
+21,OT-QUR2-CCS,21,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-10 17:11:59:640,Master,65535,NONE,'0,'00000000,1
+22,OT-GMP1-INTL,20,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-10 17:11:55:763,Master,65535,NONE,'0,'00000000,1
+23,OT-QUR2-INTL,21,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-10 17:11:57:076,Master,65535,NONE,'0,'00000000,1
+24,OT-GMP1-FIXED,20,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-10 17:12:01:013,Master,65535,NONE,'0,'00000000,1
+25,OT-QUR2-FIXED,21,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-10 17:12:02:263,Master,65535,NONE,'0,'00000000,1
+30,OT-NGN Fixed to Fixed,35,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-07-13 15:20:28:170,Master,65535,NONE,'0,'00000000,1
+33,CCS,35,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-01-21 15:28:32:060,Master,65535,NONE,'0,'00000000,1
+34,OT NGN,35,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-01 12:26:45:493,Master,65535,NONE,'0,'00000000,1
+35,OT NGN,35,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-04-11 16:56:54:333,Master,65535,NONE,'0,'00000000,1
+36,OT-NGN-INT,35,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-02 10:13:19:503,Master,65535,NONE,'0,'00000000,1
+50,OM-NGN-INT-MSS02,50,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-13 16:32:33:596,Master,65535,NONE,'0,'00000000,1
+53,INT-2nd,52,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2009-06-24 15:55:53:903,Master,65535,NONE,'0,'00000000,1
+58,OMANTEL-ISC1-FIXED,60,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-29 10:54:16:340,Master,65535,NONE,'0,'00000000,1
+59,OMANTEL-ISC2-FIXED,61,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-29 10:54:17:590,Master,65535,NONE,'0,'00000000,1
+60,OMANTEL-ISC1-MOBILE,60,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-15 15:15:57:530,Master,65535,NONE,'0,'00000000,1
+61,OMANTEL-ISC2-MOBILE,61,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-15 15:15:58:716,Master,65535,NONE,'0,'00000000,1
+62,OMANTEL-ISC1-FIXED-CCS,60,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-15 15:15:59:903,Master,65535,NONE,'0,'00000000,1
+63,OMANTEL-ISC2-FIXED-CCS,61,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-15 15:16:01:140,Master,65535,NONE,'0,'00000000,1
+70,DU-HW1,70,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-22 16:28:19:450,Master,65535,NONE,'0,'00000000,1
+71,DU-HW2,71,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-03-22 16:28:20:686,Master,65535,NONE,'0,'00000000,1
+80,Oslo U1,80,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-13 14:34:07:070,Master,65535,NONE,'0,'00000000,1
+81,Oslo U2,81,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-13 14:34:08:396,Master,65535,NONE,'0,'00000000,1
+82,Oslo U1 Compressed,80,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-05-27 17:29:41:153,Master,65535,NONE,'0,'00000000,1
+83,Oslo U2 Compressed,81,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-05-27 17:29:55:576,Master,65535,NONE,'0,'00000000,1
+96,OT-ISC1-NAT,96,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-27 09:00:23:593,Master,65535,NONE,'0,'00000000,1
+97,OT-ISC2-NAT,97,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-27 09:00:46:780,Master,65535,NONE,'0,'00000000,1
+110,QTEL-IGW1,110,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-19 15:41:20:473,Master,65535,NONE,'0,'00000000,1
+111,QTEL-IGW2,111,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-19 15:41:29:020,Master,65535,NONE,'0,'00000000,1
+112,QTEL-IGW3,112,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-09-19 14:36:49:303,Master,65535,NONE,'0,'00000000,1
+113,QTEL-IGW1,110,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-04-13 13:06:18:933,Master,65535,NONE,'0,'00000000,1
+114,QTEL-IGW2,111,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-04-13 13:06:20:556,Master,65535,NONE,'0,'00000000,1
+130,Ascade Dialer,130,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-01-01 11:09:05:846,Master,65535,NONE,'0,'00000000,1
+140,Invitel-PTL01,140,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-05-31 12:52:45:530,Master,65535,NONE,'0,'00000000,1
+180,Bharti-Chennai,180,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-06-07 14:35:56:736,Master,65535,NONE,'0,'00000000,1
+181,Bharti-Mumbai,181,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-06-07 14:35:58:020,Master,65535,NONE,'0,'00000000,1
+182,Bharti-Delhi,182,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-06-07 14:35:59:270,Master,65535,NONE,'0,'00000000,1
+200,Etisalat-AD_IS5,200,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-06-20 10:36:23:183,Master,65535,NONE,'0,'00000000,1
+201,Etisalat-DXB_IS6,201,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-06-20 10:36:24:433,Master,65535,NONE,'0,'00000000,1
+220,Tata-London Sonus,220,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-06-30 15:33:28:660,Master,65535,NONE,'0,'00000000,1
+221,Tata-Toronto SGX,221,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-11-02 12:11:55:903,Master,65535,NONE,'0,'00000000,1
+222,TTATA-Toronto SGX-VOIP,221,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-09-19 16:39:00:233,Master,65535,NONE,'0,'00000000,1
+240,MIR-BANGLADESH,240,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-12-20 17:08:30:810,Master,65535,NONE,'0,'00000000,1
+260,Jordan_Telecom-NISC1,260,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-04-03 08:59:23:700,Master,65535,NONE,'0,'00000000,1
+261,Jordan_Telecom-NISC2,261,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-04-03 08:59:25:340,Master,65535,NONE,'0,'00000000,1
+280,PTCL_IBA/3,281,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-04-18 14:57:42:230,Master,65535,NONE,'0,'00000000,1
+281,PTCL_IMG-KHI,281,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-07-13 17:57:00:116,Master,65535,NONE,'0,'00000000,1
+330,Sparkle-MILANO/M5I,330,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-10 10:32:29:610,Master,65535,NONE,'0,'00000000,1
+340,SIPTG_Sparkle VOIP_B,340,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-05-26 17:10:32:480,Master,65535,NONE,'0,'00000000,1
+350,TATA-Delhi-ISC,350,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-04-11 14:17:58:890,Master,65535,NONE,'0,'00000000,1
+351,TATA-Chennai-ISC,351,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-04-11 14:18:00:530,Master,65535,NONE,'0,'00000000,1
+360,Zain_Tel,360,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-11 14:46:40:310,Master,65535,NONE,'0,'00000000,1
+370,Indosat-SGI-1F,370,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-10 11:33:19:340,Master,65535,NONE,'0,'00000000,1
+371,Indosat-SGI-4C,371,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-10 11:33:20:903,Master,65535,NONE,'0,'00000000,1
+380,SamaTel,380,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-24 18:21:39:820,Master,65535,NONE,'0,'00000000,1
+390,SIPTG_Samatel,380,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-03-03 15:59:01:523,Master,65535,NONE,'0,'00000000,1
+400,ET1,400,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-24 15:42:00:453,Master,65535,NONE,'0,'00000000,1
+401,ET2,401,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-24 17:35:43:403,Master,65535,NONE,'0,'00000000,1
+411,HHT1,411,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-28 16:13:01:703,Master,65535,NONE,'0,'00000000,1
+421,HHT2,421,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-05-01 10:12:26:126,Master,65535,NONE,'0,'00000000,1
+431,HHT3,431,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-05-01 10:18:01:320,Master,65535,NONE,'0,'00000000,1
+441,HHT4,441,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-08-31 12:37:10:040,Master,65535,NONE,'0,'00000000,1
+499,PRI_Madina_Estate,499,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-11-07 13:08:32:833,Master,65535,NONE,'0,'00000000,1
+500,PRI_Infoline,500,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-11-06 12:27:38:140,Master,65535,NONE,'0,'00000000,1
+501,PRI_MSAN001_PBX1,501,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-02-16 20:29:56:920,Master,65535,NONE,'0,'00000000,1
+502,PRI_TEST_GHUBRA,502,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-04-21 15:41:07:096,Master,65535,NONE,'0,'00000000,1
+503,PRI_MSAN_GHUBRA_1,503,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-05-24 18:25:57:003,Master,65535,NONE,'0,'00000000,1
+504,PRI_Nawras_PBX1,504,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-05-29 19:31:32:996,Master,65535,NONE,'0,'00000000,1
+505,PRI_AR1,505,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-01-15 15:15:20:476,Master,65535,NONE,'0,'00000000,1
+506,PRI_AlHayat,506,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-01-23 16:37:07:760,Master,65535,NONE,'0,'00000000,1
+507,PRI_AlKhalil,507,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-01-29 17:11:13:276,Master,65535,NONE,'0,'00000000,1
+509,PRI_Special_Tech,509,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-02-12 15:48:00:580,Master,65535,NONE,'0,'00000000,1
+510,PRI_Bahwan-EngHQ,510,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-28 12:04:24:200,Master,65535,NONE,'0,'00000000,1
+511,PRI_Bahwan-EngHQ2,511,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-28 12:18:23:936,Master,65535,NONE,'0,'00000000,1
+512,PRI_Bahwan-EngHQ3,512,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-28 12:21:51:193,Master,65535,NONE,'0,'00000000,1
+513,PRI_Phoenix_Power,513,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-03-06 13:10:02:710,Master,65535,NONE,'0,'00000000,1
+516,PRI_MIR_Talal,516,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-02-26 10:16:08:393,Master,65535,NONE,'0,'00000000,1
+517,PRI_Technical_Trading,517,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-03-12 11:46:18:190,Master,65535,NONE,'0,'00000000,1
+518,PRI_SCHLUMBERGER LLC,518,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-08 08:48:56:536,Master,65535,NONE,'0,'00000000,1
+520,PRI_Bahwan_Cybertek L.L.C,520,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-03-25 15:54:39:566,Master,65535,NONE,'0,'00000000,1
+522,PRI_AATCO,522,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-02 13:20:53:176,Master,65535,NONE,'0,'00000000,1
+524,PRI_Takamul Investment,524,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-04-14 10:22:04:940,Master,65535,NONE,'0,'00000000,1
+525,PRI_Octal Petrochemicals,525,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-05-26 15:36:51:030,Master,65535,NONE,'0,'00000000,1
+526,PRI_Tilal_Sharaf,526,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-05-15 11:55:40:553,Master,65535,NONE,'0,'00000000,1
+528,Suhail Bahwan Automobiles LLC,528,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-06-19 15:27:50:233,Master,65535,NONE,'0,'00000000,1
+529,PRI_Mars International LLC,529,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-08-29 10:57:25:113,Master,65535,NONE,'0,'00000000,1
+530,PRI_Nawras_PBX2,504,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-25 14:43:15:396,Master,65535,NONE,'0,'00000000,1
+531,PRI_HiFM,531,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-10 15:36:59:056,Master,65535,NONE,'0,'00000000,1
+532,PRI_Babyshop,532,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-11-03 15:22:35:810,Master,65535,NONE,'0,'00000000,1
+533,PRI_Al Adrak Trading,533,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-10 10:18:18:026,Master,65535,NONE,'0,'00000000,1
+534,PRI_OmanFamilyLeisureCompany,534,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-17 15:38:11:510,Master,65535,NONE,'0,'00000000,1
+535,PRI_OPAL Asha Enterprises,535,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-25 11:52:20:920,Master,65535,NONE,'0,'00000000,1
+536,PRI_KIMS_Oman_Hospital,536,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-08-15 10:05:46:420,Master,65535,NONE,'0,'00000000,1
+537,PRI_Al_Madina_Financia,537,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-08-28 13:03:09:756,Master,65535,NONE,'0,'00000000,1
+538,PRI_Int_Tourism_Rest,538,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-10 11:08:11:683,Master,65535,NONE,'0,'00000000,1
+539,PRI_Worley Parsons,539,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-22 11:02:56:846,Master,65535,NONE,'0,'00000000,1
+540,PRI_ICE Health,540,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-26 16:28:38:390,Master,65535,NONE,'0,'00000000,1
+541,PRI_RAK Petroleum,541,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-09 11:43:43:153,Master,65535,NONE,'0,'00000000,1
+542,PRI_FTTX-Musstir,542,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-23 13:36:17:470,Master,65535,NONE,'0,'00000000,1
+543,PRI_Towell_Barwil,543,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-11-07 10:36:23:103,Master,65535,NONE,'0,'00000000,1
+544,PRI_Wave_Muscat,544,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-11-19 11:30:38:716,Master,65535,NONE,'0,'00000000,1
+546,PRI_Oman_Tank,546,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-11-19 14:57:07:963,Master,65535,NONE,'0,'00000000,1
+547,PRI_Nestle_Oman,547,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-11-19 16:50:37:213,Master,65535,NONE,'0,'00000000,1
+548,PRI_Lulu hyper,548,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-11-25 15:46:09:630,Master,65535,NONE,'0,'00000000,1
+549,PRI_Lulu Hyper Market,549,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-01-29 11:26:48:543,Master,65535,NONE,'0,'00000000,1
+551,PRI_Oman Drydock,551,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-12-04 10:56:18:920,Master,65535,NONE,'0,'00000000,1
+554,PRI_TulipInn,554,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-18 16:56:29:016,Master,65535,NONE,'0,'00000000,1
+555,PRI_Sohar_College,555,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-12-11 14:40:22:800,Master,65535,NONE,'0,'00000000,1
+556,PRI_Duqm Refinery,556,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-12-12 14:41:48:870,Master,65535,NONE,'0,'00000000,1
+557,PRI_General_Electric,557,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-01-16 16:35:29:413,Master,65535,NONE,'0,'00000000,1
+558,PRI_Tawasul-Elect-1,558,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-01-16 18:42:17:746,Master,65535,NONE,'0,'00000000,1
+563,PRI_Schlumberger,563,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-01-30 16:58:11:700,Master,65535,NONE,'0,'00000000,1
+565,PRI_Cluttons-Partners-Beach,565,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-17 11:59:44:073,Master,65535,NONE,'0,'00000000,1
+566,PRI_Cluttons-Partners,566,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-17 12:06:07:526,Master,65535,NONE,'0,'00000000,1
+567,PRI_Cluttons-Alqurum,567,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-17 12:18:50:110,Master,65535,NONE,'0,'00000000,1
+568,PRI_Arabian-ind-Rusyl,568,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-20 11:43:36:560,Master,65535,NONE,'0,'00000000,1
+569,PRI_Arabian-ind-Suhar,569,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-20 11:47:48:220,Master,65535,NONE,'0,'00000000,1
+570,PRI_Special-Economic,570,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-27 11:48:36:846,Master,65535,NONE,'0,'00000000,1
+571,PRI_Golden Tulip - Seeb,571,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-03-31 12:45:35:176,Master,65535,NONE,'0,'00000000,1
+572,PRI_Mo-Commence,572,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-03-03 16:49:19:336,Master,65535,NONE,'0,'00000000,1
+573,PRI_Action Group,573,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-03-12 10:00:31:280,Master,65535,NONE,'0,'00000000,1
+574,PRI_Ministry_Comm_Indust,574,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-06-09 15:08:38:316,Master,65535,NONE,'0,'00000000,1
+575,PRI_Huawei_Tech_MGM,575,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-04-03 10:58:27:336,Master,65535,NONE,'0,'00000000,1
+576,PRI_PARK_INN_HOTEL,576,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-04-14 12:05:06:910,Master,65535,NONE,'0,'00000000,1
+577,PRI_Drake-Scull,577,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-05-14 17:03:24:386,Master,65535,NONE,'0,'00000000,1
+578,PRI_Moosa Abdul Rahman,578,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-04-21 17:40:16:280,Master,65535,NONE,'0,'00000000,1
+579,PRI_Ministry Of Education - Ibri,579,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-05-05 17:07:44:306,Master,65535,NONE,'0,'00000000,1
+580,PRI_Gulf_Drilling,580,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-31 14:54:40:890,Master,65535,NONE,'0,'00000000,1
+582,PRI_Bin_Salim llc,582,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-05-23 12:52:42:200,Master,65535,NONE,'0,'00000000,1
+584,PRI_Saud Bahwan Auto,584,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-05-27 11:43:10:833,Master,65535,NONE,'0,'00000000,1
+586,PRI_Seeb_Hotels,586,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-06-04 15:59:02:826,Master,65535,NONE,'0,'00000000,1
+587,PRI_First_Global,587,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-06-04 12:27:41:533,Master,65535,NONE,'0,'00000000,1
+588,PRI_State_Audit1,588,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-15 14:23:16:210,Master,65535,NONE,'0,'00000000,1
+590,PRI_DalaTrading,590,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-17 12:47:06:766,Master,65535,NONE,'0,'00000000,1
+591,PRI_Tamimah_telecom,591,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-31 10:10:45:326,Master,65535,NONE,'0,'00000000,1
+592,PRI_Balushi_Invest,592,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-10 15:04:09:346,Master,65535,NONE,'0,'00000000,1
+593,PRI_National_Gas,593,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-08-26 10:46:52:543,Master,65535,NONE,'0,'00000000,1
+594,PRI_Dalma_Energy,594,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-08-28 17:21:12:886,Master,65535,NONE,'0,'00000000,1
+595,PRI_Ministry_commence,595,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-08 15:22:15:776,Master,65535,NONE,'0,'00000000,1
+598,PRI_Takamul_02,598,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-08 15:54:50:473,Master,65535,NONE,'0,'00000000,1
+599,PRI_Travelex,599,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-10 13:02:57:090,Master,65535,NONE,'0,'00000000,1
+603,SIPTG_NAWRAS_B,603,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-06-21 14:53:30:063,Master,65535,NONE,'0,'00000000,1
+604,SIPTG_NAWRAS_S,603,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2010-09-22 16:29:26:986,Master,65535,NONE,'0,'00000000,1
+607,SIPTG_ERNST YOUNG_B,607,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-09-10 16:36:04:536,Master,65535,NONE,'0,'00000000,1
+608,SIPTG_ERNST YOUNG_S,607,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-09-10 16:36:06:116,Master,65535,NONE,'0,'00000000,1
+609,SIPTG_Chedi_B,609,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-10-26 09:10:04:403,Master,65535,NONE,'0,'00000000,1
+610,SIPTG_Chedi_S,609,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2011-10-26 09:10:05:920,Master,65535,NONE,'0,'00000000,1
+613,SIPTG_Weatherf_B,613,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-23 12:06:30:343,Master,65535,NONE,'0,'00000000,1
+614,SIPTG_Weatherf_S,613,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-23 12:06:32:310,Master,65535,NONE,'0,'00000000,1
+615,SIP for testing_B,615,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-02-27 15:45:12:586,Master,65535,NONE,'0,'00000000,1
+616,SIP for testing_S,615,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-02-27 15:45:13:946,Master,65535,NONE,'0,'00000000,1
+619,SIPTG_Oman-Oilfield_B,619,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-22 15:28:21:173,Master,65535,NONE,'0,'00000000,1
+620,SIPTG_Oman-Oilfield_S,619,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-07-22 15:28:22:736,Master,65535,NONE,'0,'00000000,1
+621,SIPTG_German University_B,621,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-03 10:25:16:836,Master,65535,NONE,'0,'00000000,1
+622,SIPTG_German University_S,621,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-09-03 10:25:18:336,Master,65535,NONE,'0,'00000000,1
+627,SIPTG_Ghala-Ernst & Young_B,627,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-13 16:05:29:830,Master,65535,NONE,'0,'00000000,1
+628,SIPTG_Ghala-Ernst & Young_S,627,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-13 16:05:31:983,Master,65535,NONE,'0,'00000000,1
+629,SIPTG_CC-ENERGY-DEV-KHUWAIR_B,629,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-16 12:19:11:683,Master,65535,NONE,'0,'00000000,1
+630,SIPTG_CC-ENERGY-DEV-KHUWAIR_S,629,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-16 12:19:13:216,Master,65535,NONE,'0,'00000000,1
+631,SIPTG_CC-ENERGY-DEV-SAIWAN_B,631,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-16 12:37:15:983,Master,65535,NONE,'0,'00000000,1
+632,SIPTG_CC-ENERGY-DEV-SAIWAN_S,631,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-16 12:37:17:420,Master,65535,NONE,'0,'00000000,1
+633,SIPTG_CC-ENE_B,633,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-16 12:49:38:686,Master,65535,NONE,'0,'00000000,1
+634,SIPTG_CC-ENE_S,633,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-10-16 12:49:40:123,Master,65535,NONE,'0,'00000000,1
+635,SIPTG_Glf Bader Mrkts SAOC_B,635,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-23 19:24:17:476,Master,65535,NONE,'0,'00000000,1
+636,SIPTG_Glf Bader Mrkts SAOC_S,635,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-23 19:24:19:023,Master,65535,NONE,'0,'00000000,1
+637,SIPTG_Ministry Of Defence_B,637,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-11-21 12:51:21:730,Master,65535,NONE,'0,'00000000,1
+638,SIPTG_Ministry Of Defence_S,637,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2012-11-21 12:51:23:010,Master,65535,NONE,'0,'00000000,1
+639,SIPTG_Gulf Info Tech LLC_B,639,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-06 09:35:19:703,Master,65535,NONE,'0,'00000000,1
+640,SIPTG_Gulf Info Tech LLC_S,639,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-02-06 09:35:21:610,Master,65535,NONE,'0,'00000000,1
+645,SIPTG_Oman Olympic Committee_B,645,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-03-27 12:53:06:613,Master,65535,NONE,'0,'00000000,1
+646,SIPTG_Oman Olympic Committee_S,645,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-03-27 12:53:08:083,Master,65535,NONE,'0,'00000000,1
+647,SIPTG_Zubair_B,647,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-04-07 16:22:01:280,Master,65535,NONE,'0,'00000000,1
+648,SIPTG_Zubair_S,647,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-04-07 16:22:02:763,Master,65535,NONE,'0,'00000000,1
+649,SIPTG_Tamimah telcm cmp tech_B,649,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-05 11:22:45:780,Master,65535,NONE,'0,'00000000,1
+650,SIPTG_Tamimah telcm cmp tech_S,649,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-05 11:22:47:720,Master,65535,NONE,'0,'00000000,1
+651,SIPTG_Nasma_Tel_LLC_B,651,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-06-27 14:00:17:040,Master,65535,NONE,'0,'00000000,1
+652,SIPTG_Nasma_Tel_LLC_S,651,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-06-27 14:00:18:600,Master,65535,NONE,'0,'00000000,1
+653,SIPTG_MilitaryTechCollege_B,653,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-01 14:36:40:853,Master,65535,NONE,'0,'00000000,1
+654,SIPTG_MilitaryTechCollege_S,653,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-01 14:36:42:450,Master,65535,NONE,'0,'00000000,1
+655,SIPTG_Services & Trade Company_B,655,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-04 15:00:46:850,Master,65535,NONE,'0,'00000000,1
+656,SIPTG_Services & Trade Company_S,655,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-04 15:00:48:366,Master,65535,NONE,'0,'00000000,1
+657,SIPTG_Tawoos IndLLC_B,657,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-30 16:26:00:006,Master,65535,NONE,'0,'00000000,1
+658,SIPTG_Tawoos IndLLC_S,657,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-07-30 16:26:01:476,Master,65535,NONE,'0,'00000000,1
+659,SIPTG_Bin Salim LLC_B,659,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-08-06 10:22:40:586,Master,65535,NONE,'0,'00000000,1
+660,SIPTG_Bin Salim LLC_S,659,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-08-06 10:22:42:040,Master,65535,NONE,'0,'00000000,1
+661,SIP_Test_Mir_B,661,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-03 17:43:19:066,Master,65535,NONE,'0,'00000000,1
+662,SIP_Test_Mir_S,661,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-03 17:43:20:566,Master,65535,NONE,'0,'00000000,1
+663,SIP_Tawoos_Marmoul_B,663,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-12 16:31:51:736,Master,65535,NONE,'0,'00000000,1
+664,SIP_Tawoos_Marmoul_S,663,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-12 16:31:53:376,Master,65535,NONE,'0,'00000000,1
+665,SIP_Tawoos_B_B,665,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-19 17:40:32:833,Master,65535,NONE,'0,'00000000,1
+666,SIP_Tawoos_B_S,665,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-19 17:40:34:270,Master,65535,NONE,'0,'00000000,1
+667,SIP_Tawoos_FAHUD_B,667,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-15 16:27:32:156,Master,65535,NONE,'0,'00000000,1
+668,SIP_Tawoos_FAHUD_S,667,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-15 16:27:33:750,Master,65535,NONE,'0,'00000000,1
+669,SIP_Tawoos_Sayh_B,669,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-16 10:55:19:883,Master,65535,NONE,'0,'00000000,1
+670,SIP_Tawoos_Sayh_S,669,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-16 10:55:21:446,Master,65535,NONE,'0,'00000000,1
+671,SIP_Tawoos_Nimr_B,671,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-16 12:03:28:730,Master,65535,NONE,'0,'00000000,1
+672,SIP_Tawoos_Nimr_S,671,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-16 12:03:30:106,Master,65535,NONE,'0,'00000000,1
+673,SIP_Bait_Zubair_Mu_B,673,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-19 17:50:19:093,Master,65535,NONE,'0,'00000000,1
+674,SIP_Bait_Zubair_Mu_S,673,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-09-19 17:50:20:656,Master,65535,NONE,'0,'00000000,1
+675,SIP_Desert_Line_B,675,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-03 13:56:27:010,Master,65535,NONE,'0,'00000000,1
+676,SIP_Desert_Line_S,675,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-03 13:56:28:540,Master,65535,NONE,'0,'00000000,1
+679,SIP_Spicy_V_B,679,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-07 14:20:08:900,Master,65535,NONE,'0,'00000000,1
+680,SIP_Spicy_V_S,679,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-07 14:20:10:400,Master,65535,NONE,'0,'00000000,1
+681,SIPTG_Zubair Auto1_B,681,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-22 16:51:54:490,Master,65535,NONE,'0,'00000000,1
+682,SIPTG_Zubair Auto1_S,681,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-22 16:51:56:460,Master,65535,NONE,'0,'00000000,1
+683,SIPTG_Zubair Auto2_B,683,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-22 16:55:38:470,Master,65535,NONE,'0,'00000000,1
+684,SIPTG_Zubair Auto2_S,683,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-22 16:55:39:970,Master,65535,NONE,'0,'00000000,1
+685,SIPTG_Zubair Auto3_B,685,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-22 16:57:53:906,Master,65535,NONE,'0,'00000000,1
+686,SIPTG_Zubair Auto3_S,685,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-22 16:57:55:343,Master,65535,NONE,'0,'00000000,1
+687,SIP_Bahwan_C_B,687,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-28 11:19:01:446,Master,65535,NONE,'0,'00000000,1
+688,SIP_Bahwan_C_S,687,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-10-28 11:19:02:746,Master,65535,NONE,'0,'00000000,1
+700,SIPTG_Gnrl Fdratin Oman trd Unin_B,700,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-24 16:43:46:243,Master,65535,NONE,'0,'00000000,1
+701,SIPTG_Gnrl Fdratin Oman trd Unin_S,700,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-24 16:43:48:040,Master,65535,NONE,'0,'00000000,1
+702,SIPTG_Alsh_Inter_B,702,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-07 09:52:30:156,Master,65535,NONE,'0,'00000000,1
+703,SIPTG_Alsh_Inter_S,702,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-07 09:52:31:796,Master,65535,NONE,'0,'00000000,1
+704,SIPTG_Dal_Petro_B,704,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-09 10:46:59:003,Master,65535,NONE,'0,'00000000,1
+706,SIPTG_Desa_Res_Center_B,706,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-19 14:39:13:490,Master,65535,NONE,'0,'00000000,1
+707,SIPTG_Desa_Res_Center_S,706,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-19 14:39:15:163,Master,65535,NONE,'0,'00000000,1
+710,SIPTG_Ara_Ind_Hyma_B,710,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-20 16:42:10:720,Master,65535,NONE,'0,'00000000,1
+711,SIPTG_Ara_Ind_Hyma_S,710,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-20 16:42:12:330,Master,65535,NONE,'0,'00000000,1
+720,SIPTG_Teejan_Trad_B,720,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-05 15:12:35:146,Master,65535,NONE,'0,'00000000,1
+721,SIPTG_Teejan_Trad_S,720,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-05 15:12:36:786,Master,65535,NONE,'0,'00000000,1
+722,SIPTG_Khimji_Ramd_B,722,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-06 14:18:28:560,Master,65535,NONE,'0,'00000000,1
+723,SIPTG_Khimji_Ramd LLC_S,722,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-06 14:18:30:280,Master,65535,NONE,'0,'00000000,1
+801,PRI_Scheenker_Khim,801,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-11-20 11:03:56:850,Master,65535,NONE,'0,'00000000,1
+804,PRI_MOTourism,804,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-12-01 12:15:38:833,Master,65535,NONE,'0,'00000000,1
+807,PRI_OPAL Asha,807,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-12-29 14:50:34:826,Master,65535,NONE,'0,'00000000,1
+808,PRI_ITALFERR,808,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-12-31 11:35:12:960,Master,65535,NONE,'0,'00000000,1
+809,PRI_Yanbi_Projects,809,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-01-06 14:19:17:220,Master,65535,NONE,'0,'00000000,1
+900,SIP_China_H_B,900,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-11-20 09:56:53:036,Master,65535,NONE,'0,'00000000,1
+901,SIP_China_H_S,900,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-11-20 09:56:54:503,Master,65535,NONE,'0,'00000000,1
+902,SIP_Research_C_B,902,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-12-04 10:52:26:936,Master,65535,NONE,'0,'00000000,1
+903,SIP_Research_C_S,902,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-12-04 10:52:28:486,Master,65535,NONE,'0,'00000000,1
+904,SIP_OPAL_B,904,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-12-22 12:42:50:913,Master,65535,NONE,'0,'00000000,1
+905,SIP_OPAL_S,904,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2013-12-22 12:42:52:553,Master,65535,NONE,'0,'00000000,1
+906,SIPTG_AL-GHADEER_B,906,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-01-09 11:58:33:313,Master,65535,NONE,'0,'00000000,1
+907,SIPTG_AL-GHADEER_S,906,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-01-09 11:58:34:673,Master,65535,NONE,'0,'00000000,1
+810,PRI_Takatuf_Oman,810,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-01-28 16:47:51:030,Master,65535,NONE,'0,'00000000,1
+812,PRI_Larsen & Toubro,812,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-01-29 09:59:14:696,Master,65535,NONE,'0,'00000000,1
+912,SIP_G_Chan_B,912,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-03 10:37:08:480,Master,65535,NONE,'0,'00000000,1
+913,SIP_G_Chan_S,912,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-03 10:37:09:996,Master,65535,NONE,'0,'00000000,1
+813,PRI_Holiday_Hotels,813,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-03 14:41:14:526,Master,65535,NONE,'0,'00000000,1
+916,SIPTG_Holiday Hotels_B,916,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-12 16:21:37:610,Master,65535,NONE,'0,'00000000,1
+917,SIPTG_Holiday Hotels_S,916,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-12 16:21:39:313,Master,65535,NONE,'0,'00000000,1
+918,SIP_Amjad_Trad_B,918,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-25 16:16:37:980,Master,65535,NONE,'0,'00000000,1
+919,SIP_Amjad_Trad_S,918,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-25 16:16:39:556,Master,65535,NONE,'0,'00000000,1
+922,SIP_OP_IMT_B,922,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-27 17:00:24:086,Master,65535,NONE,'0,'00000000,1
+923,SIP_OP_IMT_S,922,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-02-27 17:00:25:586,Master,65535,NONE,'0,'00000000,1
+920,SIP_CCCFQI_B,920,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-02 15:35:51:176,Master,65535,NONE,'0,'00000000,1
+921,SIP_CCCFQI_S,920,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-02 15:35:52:660,Master,65535,NONE,'0,'00000000,1
+819,PRI_Min_Edu,819,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-04 11:19:16:596,Master,65535,NONE,'0,'00000000,1
+924,SIP_Phoenix_B,924,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-04 16:02:31:713,Master,65535,NONE,'0,'00000000,1
+925,SIP_Phoenix_S,924,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-04 16:02:33:400,Master,65535,NONE,'0,'00000000,1
+926,SIP_Ameen_B,926,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-06 18:25:08:093,Master,65535,NONE,'0,'00000000,1
+927,SIP_Ameen_S,926,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-06 18:25:09:530,Master,65535,NONE,'0,'00000000,1
+72,DU-HW3,72,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-09 11:45:40:183,Master,65535,NONE,'0,'00000000,1
+73,DU-HW4,73,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-09 11:45:41:823,Master,65535,NONE,'0,'00000000,1
+932,SIPTG_Pub_Auth_B,932,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-03 18:10:01:406,Master,65535,NONE,'0,'00000000,1
+933,SIPTG_Pub_Auth_S,932,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-03 18:10:03:156,Master,65535,NONE,'0,'00000000,1
+930,SIPTG_Integrated_B,930,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-11 10:12:13:330,Master,65535,NONE,'0,'00000000,1
+931,SIPTG_Integrated_S,930,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-11 10:12:14:830,Master,65535,NONE,'0,'00000000,1
+934,SIP_Khimji_G_B,934,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-17 15:35:40:833,Master,65535,NONE,'0,'00000000,1
+935,SIP_Khimji_G_S,934,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-17 15:35:42:476,Master,65535,NONE,'0,'00000000,1
+936,SIPTG_Oman TradingLLC-B_B,936,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-20 11:55:57:670,Master,65535,NONE,'0,'00000000,1
+937,SIPTG_Oman TradingLLC-B_S,936,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-20 11:55:59:233,Master,65535,NONE,'0,'00000000,1
+938,SIPTG_Oman Trading Est LLC-B_B,938,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-20 11:59:59:990,Master,65535,NONE,'0,'00000000,1
+939,SIPTG_Oman Trading Est LLC-B_S,938,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-20 12:00:01:613,Master,65535,NONE,'0,'00000000,1
+823,PRI_Deebaj_Ent,823,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-26 09:20:16:926,Master,65535,NONE,'0,'00000000,1
+824,PRI_Nat_BK_Oman1,824,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-26 15:38:48:570,Master,65535,NONE,'0,'00000000,1
+825,PRI_Nat_BK_Oman2,825,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-26 15:41:08:386,Master,65535,NONE,'0,'00000000,1
+826,PRI_Musstir,826,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-03-31 13:45:54:413,Master,65535,NONE,'0,'00000000,1
+940,SIP_Aramex_B,940,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-08 10:19:10:756,Master,65535,NONE,'0,'00000000,1
+941,SIP_Aramex_S,940,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-08 10:19:12:380,Master,65535,NONE,'0,'00000000,1
+300,Nawras_IMS,300,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-08 17:08:12:380,Master,65535,NONE,'0,'00000000,1
+914,SIP_Holiday_H_B,914,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-14 16:04:53:680,Master,65535,NONE,'0,'00000000,1
+915,SIP_Holiday_H_S,914,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-14 16:04:55:303,Master,65535,NONE,'0,'00000000,1
+944,SIP_Khimji_B_B,944,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-14 16:45:35:610,Master,65535,NONE,'0,'00000000,1
+945,SIP_Khimji_B_S,944,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-14 16:45:37:170,Master,65535,NONE,'0,'00000000,1
+310,SIPTG_Bangla tel_B,310,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-17 15:23:19:756,Master,65535,NONE,'0,'00000000,1
+311,SIPTG_Bangla tel_S,310,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-17 15:23:21:380,Master,65535,NONE,'0,'00000000,1
+828,PRI_Lifeline_Hos,828,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-29 10:46:07:390,Master,65535,NONE,'0,'00000000,1
+820,PRI_Siemens,820,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-04-29 15:01:47:926,Master,65535,NONE,'0,'00000000,1
+829,PRI_Minist_Tour,829,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-01 10:16:43:400,Master,65535,NONE,'0,'00000000,1
+830,PRI_Bahwan_Auto,830,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-08 15:39:30:616,Master,65535,NONE,'0,'00000000,1
+381,Anonymous,380,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-11 17:07:51:513,Master,65535,NONE,'0,'00000000,1
+948,SIP_Stat_Gen_B,948,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-12 14:52:23:353,Master,65535,NONE,'0,'00000000,1
+949,SIP_Stat_Gen_S,948,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-12 14:52:25:226,Master,65535,NONE,'0,'00000000,1
+946,SIP_Emtiaz_Devlop_B,946,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-15 10:13:03:813,Master,65535,NONE,'0,'00000000,1
+947,SIP_Emtiaz_Devlop_S,946,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-15 10:13:05:830,Master,65535,NONE,'0,'00000000,1
+950,SIP_Oman_Waste_B,950,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-27 10:03:45:050,Master,65535,NONE,'0,'00000000,1
+951,SIP_Oman_Waste_S,950,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-27 10:03:46:786,Master,65535,NONE,'0,'00000000,1
+952,SIP_MAFG_Cinema_B,952,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-28 15:14:16:293,Master,65535,NONE,'0,'00000000,1
+953,SIP_MAFG_Cinema_S,952,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-05-28 15:14:18:013,Master,65535,NONE,'0,'00000000,1
+834,PRI_National_P_M,834,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-06-03 14:54:34:830,Master,65535,NONE,'0,'00000000,1
+835,PRI_CCC_First,835,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-25 12:49:35:666,Master,65535,NONE,'0,'00000000,1
+840,PRI_CCC_Sohar,840,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-03 13:02:18:713,Master,65535,NONE,'0,'00000000,1
+837,PRI_Bank_Dhofar_FNP,837,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-06-24 15:19:14:500,Master,65535,NONE,'0,'00000000,1
+838,PRI_B_Dhofar_FNP2,838,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-06-24 15:27:38:416,Master,65535,NONE,'0,'00000000,1
+841,PRI_First_Choice,841,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-10 15:16:49:670,Master,65535,NONE,'0,'00000000,1
+954,SIP_OPAL_L&T_B,954,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-13 16:09:07:596,Master,65535,NONE,'0,'00000000,1
+955,SIP_OPAL_L&T_S,954,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-13 16:09:09:330,Master,65535,NONE,'0,'00000000,1
+956,SIP_OETC_B,956,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-18 14:13:16:020,Master,65535,NONE,'0,'00000000,1
+957,SIP_OETC_S,956,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-18 14:13:17:710,Master,65535,NONE,'0,'00000000,1
+958,SIP_Uni_Nizwa_B,958,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-25 14:36:25:076,Master,65535,NONE,'0,'00000000,1
+959,SIP_Uni_Nizwa_S,958,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-25 14:36:26:703,Master,65535,NONE,'0,'00000000,1
+960,SIP_Min_H&C_B,960,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-28 15:06:38:756,Master,65535,NONE,'0,'00000000,1
+961,SIP_Min_H&C_S,960,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-08-28 15:06:40:363,Master,65535,NONE,'0,'00000000,1
+844,PRI_Global_Communication,844,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-04 17:25:32:060,Master,65535,NONE,'0,'00000000,1
+842,PRI_Batinah_Power,842,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-08 12:41:41:950,Master,65535,NONE,'0,'00000000,1
+964,SIP_General_Electric_B,964,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-10 15:01:19:846,Master,65535,NONE,'0,'00000000,1
+965,SIP_General_Electric_S,964,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-10 15:01:21:656,Master,65535,NONE,'0,'00000000,1
+320,SIPTG1_Bright Tel_B,320,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-14 11:47:50:263,Master,65535,NONE,'0,'00000000,1
+321,SIPTG1_Bright Tel_S,320,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-14 11:47:51:763,Master,65535,NONE,'0,'00000000,1
+970,SIP_MOE_Nizwa_B,970,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-25 16:41:14:150,Master,65535,NONE,'0,'00000000,1
+971,SIP_MOE_Nizwa_S,970,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-25 16:41:15:776,Master,65535,NONE,'0,'00000000,1
+972,SIP_MOE_Sohar_B,972,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-25 17:19:04:066,Master,65535,NONE,'0,'00000000,1
+973,SIP_MOE_Sohar_S,972,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-25 17:19:05:626,Master,65535,NONE,'0,'00000000,1
+966,SIP_MOE_Rustaq_B,966,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-25 17:32:34:770,Master,65535,NONE,'0,'00000000,1
+967,SIP_MOE_Rustaq_S,966,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-25 17:32:36:393,Master,65535,NONE,'0,'00000000,1
+968,SIPTG_Ministry Of Education -Samail_B,968,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-28 15:29:18:593,Master,65535,NONE,'0,'00000000,1
+969,SIPTG_Ministry Of Education -Samail_S,968,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-09-28 15:29:20:576,Master,65535,NONE,'0,'00000000,1
+461,ET3,461,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-10-23 14:39:16:806,Master,65535,NONE,'0,'00000000,1
+10,SIPTG_Nawras_Mobile,1,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-10-23 18:06:57:360,Master,65535,NONE,'0,'00000000,1
+974,SIP_Oman_Blend_B,974,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-10-28 15:41:04:883,Master,65535,NONE,'0,'00000000,1
+975,SIP_Oman_Blend_S,974,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-10-28 15:41:06:490,Master,65535,NONE,'0,'00000000,1
+850,PRI_Petrofac_First,850,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-10-30 16:45:43:126,Master,65535,NONE,'0,'00000000,1
+853,PRI_DNO_Oman,853,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-04 15:26:19:400,Master,65535,NONE,'0,'00000000,1
+976,SIP_Madina_Invest_B,976,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-04 15:31:44:406,Master,65535,NONE,'0,'00000000,1
+977,SIP_Madina_Invest_S,976,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-04 15:31:46:033,Master,65535,NONE,'0,'00000000,1
+978,SIP_Exceed_IT_B,978,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-04 15:52:43:366,Master,65535,NONE,'0,'00000000,1
+979,SIP_Exceed_IT_S,978,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-04 15:52:44:866,Master,65535,NONE,'0,'00000000,1
+854,PRI_National_Bank_First,854,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-05 16:49:25:200,Master,65535,NONE,'0,'00000000,1
+855,PRI_National_Bank_Second,855,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-05 16:51:21:223,Master,65535,NONE,'0,'00000000,1
+11,TEST_BOMSS1,1,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-09 15:28:35:166,Master,65535,NONE,'0,'00000000,1
+980,SIPTG_Ferrovial Agroman_B,980,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-18 16:56:24:926,Master,65535,NONE,'0,'00000000,1
+981,SIPTG_Ferrovial Agroman_S,980,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-18 16:56:26:770,Master,65535,NONE,'0,'00000000,1
+982,SIPTG_Joannou_1_B,982,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-19 11:34:37:223,Master,65535,NONE,'0,'00000000,1
+983,SIPTG_Joannou_1_S,982,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-19 11:34:38:990,Master,65535,NONE,'0,'00000000,1
+984,SIPTG_Joannou_2_B,984,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-19 15:02:17:086,Master,65535,NONE,'0,'00000000,1
+985,SIPTG_Joannou_2_S,984,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-19 15:02:19:150,Master,65535,NONE,'0,'00000000,1
+856,PRI_Tilal_Develop,856,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-20 14:56:53:606,Master,65535,NONE,'0,'00000000,1
+986,SIP_Serv_&_Trad_B,986,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-23 11:52:33:376,Master,65535,NONE,'0,'00000000,1
+987,SIP_Serv_&_Trad_S,986,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-11-23 11:52:35:140,Master,65535,NONE,'0,'00000000,1
+988,SIP_Ser_Trad_K_B,988,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-03 11:02:23:060,Master,65535,NONE,'0,'00000000,1
+989,SIP_Ser_Trad_K_S,988,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-03 11:02:24:636,Master,65535,NONE,'0,'00000000,1
+990,SIP_MOE_Hyma_B,990,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-04 17:05:12:963,Master,65535,NONE,'0,'00000000,1
+991,SIP_MOE_Hyma_S,990,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-04 17:05:14:400,Master,65535,NONE,'0,'00000000,1
+857,PRI_Sama_Telecom,857,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-10 16:34:33:250,Master,65535,NONE,'0,'00000000,1
+843,PRI_Halliburton_World,843,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-15 11:31:12:030,Master,65535,NONE,'0,'00000000,1
+996,SIP_Oman_Olympic_B,996,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-15 16:47:38:823,Master,65535,NONE,'0,'00000000,1
+997,SIP_Oman_Olympic_S,996,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-15 16:47:40:136,Master,65535,NONE,'0,'00000000,1
+301,Nawras_IMS_Sohar,301,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-16 15:51:32:863,Master,65535,NONE,'0,'00000000,1
+858,PRI_Country_Vacations,858,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-22 17:38:55:076,Master,65535,NONE,'0,'00000000,1
+849,PRI_TR_Engg,849,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-24 11:01:45:673,Master,65535,NONE,'0,'00000000,1
+859,PRI_Balushi_First,859,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-25 12:45:07:076,Master,65535,NONE,'0,'00000000,1
+860,PRI_Balushi_Second,860,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2014-12-25 12:47:46:593,Master,65535,NONE,'0,'00000000,1
+847,PRI_Sohar_Paper,847,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-01-03 11:02:20:303,Master,65535,NONE,'0,'00000000,1
+998,SIP_OPAL_Business_B,998,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-01-15 17:12:14:603,Master,65535,NONE,'0,'00000000,1
+999,SIP_OPAL_Business_S,998,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-01-15 17:12:16:043,Master,65535,NONE,'0,'00000000,1
+994,SIPTG_OPAL Truck Oman_B,994,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-12-28 15:35:38:300,Master,65535,NONE,'0,'00000000,1
+995,SIPTG_OPAL Truck Oman_S,994,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-12-28 15:35:39:833,Master,65535,NONE,'0,'00000000,1
+335,SIPTG_Portel_B,335,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-01-22 16:30:36:083,Master,65535,NONE,'0,'00000000,1
+336,SIPTG_Portel_S,335,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-01-22 16:30:37:643,Master,65535,NONE,'0,'00000000,1
+689,SIP_Oman_Envi_B,689,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-01 17:29:42:300,Master,65535,NONE,'0,'00000000,1
+690,SIP_Oman_Envi_S,689,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-01 17:29:43:986,Master,65535,NONE,'0,'00000000,1
+691,SIP_IMTAC_2_B,691,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-04 17:07:40:300,Master,65535,NONE,'0,'00000000,1
+692,SIP_IMTAC_2_S,691,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-04 17:07:42:516,Master,65535,NONE,'0,'00000000,1
+270,SIP_VOIP_IDT_OG_B,270,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-08 16:12:13:540,Master,65535,NONE,'0,'00000000,1
+271,SIP_VOIP_IDT_OG_S,270,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-08 16:12:15:120,Master,65535,NONE,'0,'00000000,1
+272,SIP_VOIP_IDT_IC_B,270,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-08 17:12:51:560,Master,65535,NONE,'0,'00000000,1
+273,SIP_VOIP_IDT_IC_S,270,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-08 17:12:52:996,Master,65535,NONE,'0,'00000000,1
+693,SIPTG_Inma_prop_B,693,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-17 16:25:43:900,Master,65535,NONE,'0,'00000000,1
+694,SIPTG_Inma_prop_S,693,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-17 16:25:46:163,Master,65535,NONE,'0,'00000000,1
+695,SIPTG_Hamdan_Trad_B,695,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-15 17:18:05:623,Master,65535,NONE,'0,'00000000,1
+696,SIPTG_Hamdan_Trad_S,695,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-15 17:18:07:450,Master,65535,NONE,'0,'00000000,1
+862,PRI_Raffd_Fund,862,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-23 15:33:06:836,Master,65535,NONE,'0,'00000000,1
+617,SIP_Safeer_Hotel_B,617,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-23 16:57:33:273,Master,65535,NONE,'0,'00000000,1
+618,SIP_Safeer_Hotel_S,617,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-23 16:57:34:773,Master,65535,NONE,'0,'00000000,1
+605,SIP_Al_Hamli_B,605,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-23 17:15:15:436,Master,65535,NONE,'0,'00000000,1
+606,SIP_Al_Hamli_S,605,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-02-23 17:15:17:373,Master,65535,NONE,'0,'00000000,1
+992,SIP_Ensign_LLC_B,992,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-03-01 14:53:47:106,Master,65535,NONE,'0,'00000000,1
+993,SIP_Ensign_LLC_S,992,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-03-01 14:53:49:043,Master,65535,NONE,'0,'00000000,1
+625,SIPTG_MOE_Dhofar_B,625,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-03-16 11:57:21:083,Master,65535,NONE,'0,'00000000,1
+626,SIPTG_MOE_Dhofar_S,625,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-03-16 11:57:23:116,Master,65535,NONE,'0,'00000000,1
+910,SIPTG_Cactus Premer_B,910,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-03-29 15:03:56:366,Master,65535,NONE,'0,'00000000,1
+911,SIPTG_Cactus Premer_S,910,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-03-29 15:03:58:040,Master,65535,NONE,'0,'00000000,1
+48,OM-NGN-INT,48,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-08 18:18:10:523,Master,65535,NONE,'0,'00000000,1
+52,OM-NGN-Fixed,48,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-08 18:50:40:816,Master,65535,NONE,'0,'00000000,1
+705,SIPTG_Dal_Petro_S,704,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-09 10:47:00:723,Master,65535,NONE,'0,'00000000,1
+54,OM-NGN-Fixed-MSS02,50,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-13 16:32:35:596,Master,65535,NONE,'0,'00000000,1
+712,SIPTG_Ara_Ind_Marmul_B,712,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-21 11:27:27:453,Master,65535,NONE,'0,'00000000,1
+713,SIPTG_Ara_Ind_Marmul_S,712,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-21 11:27:29:093,Master,65535,NONE,'0,'00000000,1
+716,SIPTG_Arab_Ind_Nimr_B,716,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-21 14:53:08:846,Master,65535,NONE,'0,'00000000,1
+717,SIPTG_Arab_Ind_Nimr_S,716,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-21 14:53:10:596,Master,65535,NONE,'0,'00000000,1
+714,SIPTG_Arab_Ind_Bhaja_B,714,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-22 10:24:44:926,Master,65535,NONE,'0,'00000000,1
+715,SIPTG_Arab_Ind_Bhaja_S,714,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-22 10:24:46:613,Master,65535,NONE,'0,'00000000,1
+718,SIPTG_OPAL_Cari_Alaw_B,718,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-29 15:41:56:126,Master,65535,NONE,'0,'00000000,1
+719,SIPTG_OPAL_Cari_Alaw_S,718,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-04-29 15:41:58:033,Master,65535,NONE,'0,'00000000,1
+864,PRI_CCC CPF,864,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-10 09:50:09:483,Master,65535,NONE,'0,'00000000,1
+726,SIPTG_CCC-RHOP_B,726,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-12 16:21:27:150,Master,65535,NONE,'0,'00000000,1
+727,SIPTG_CCC-RHOP_S,726,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-12 16:21:28:883,Master,65535,NONE,'0,'00000000,1
+728,SIPTG_Oman_Nat_Inve_B,728,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-14 10:04:12:413,Master,65535,NONE,'0,'00000000,1
+729,SIPTG_Oman_Nat_Inve_S,728,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-14 10:04:14:180,Master,65535,NONE,'0,'00000000,1
+732,SIPTG_DG_Edu_Sur_B,732,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-14 16:17:40:396,Master,65535,NONE,'0,'00000000,1
+733,SIPTG_DG_Edu_Sur_S,732,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-14 16:17:41:976,Master,65535,NONE,'0,'00000000,1
+734,SIPTG_DG_Edu_Ibra_B,734,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-14 16:28:44:160,Master,65535,NONE,'0,'00000000,1
+735,SIPTG_DG_Edu_Ibra_S,734,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-14 16:28:45:736,Master,65535,NONE,'0,'00000000,1
+736,SIPTG_Carm_Majan_B,736,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-19 16:09:07:136,Master,65535,NONE,'0,'00000000,1
+737,SIPTG_Carm_Majan_S,736,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-05-19 16:09:08:696,Master,65535,NONE,'0,'00000000,1
+866,PRI_Bahwan_Cybertek,866,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-01 10:23:39:880,Master,65535,NONE,'0,'00000000,1
+738,SIPTG_MOE_Dhofa_B,738,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-01 15:53:56:490,Master,65535,NONE,'0,'00000000,1
+739,SIPTG_MOE_Dhofa_S,738,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-01 15:53:58:116,Master,65535,NONE,'0,'00000000,1
+740,SIPTG_USG_Zawawi_B,740,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-08 15:41:10:836,Master,65535,NONE,'0,'00000000,1
+741,SIPTG_USG_Zawawi_S,740,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-08 15:41:12:510,Master,65535,NONE,'0,'00000000,1
+867,PRI_Takaful_Oman,867,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-09 14:19:36:466,Master,65535,NONE,'0,'00000000,1
+868,PRI_Country_Vacat_Azaiba,868,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-10 11:44:33:123,Master,65535,NONE,'0,'00000000,1
+730,SIPTG_Lulu_Market_B,730,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-17 16:45:46:310,Master,65535,NONE,'0,'00000000,1
+731,SIPTG_Lulu_Market_S,730,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-17 16:45:48:250,Master,65535,NONE,'0,'00000000,1
+869,PRI_Authority_Partnership,869,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-22 11:53:03:270,Master,65535,NONE,'0,'00000000,1
+870,Travel Point LLC,870,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-06-28 13:17:54:756,Master,65535,NONE,'0,'00000000,1
+746,SIP_Al Ansari Trading Ent LLC_B,746,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-07-13 15:34:19:266,Master,65535,NONE,'0,'00000000,1
+747,SIP_Al Ansari Trading Ent LLC_S,746,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-07-13 15:34:20:953,Master,65535,NONE,'0,'00000000,1
+742,SIPTG_Al Batina International LLC_B,742,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-07-14 10:31:54:566,Master,65535,NONE,'0,'00000000,1
+743,SIPTG_Al Batina International LLC_S,742,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-07-14 10:31:56:333,Master,65535,NONE,'0,'00000000,1
+341,SIPTG_Sparkle VOIP_S,340,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-07-15 10:01:33:400,Master,65535,NONE,'0,'00000000,1
+744,SIPTG_Sharaf DG LLC_B,744,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-07-15 14:09:13:266,Master,65535,NONE,'0,'00000000,1
+745,SIPTG_Sharaf DG LLC_S,744,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-07-15 14:09:14:953,Master,65535,NONE,'0,'00000000,1
+802,Dummy PRI-1,802,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-06 13:31:13:343,Master,65535,NONE,'0,'00000000,1
+754,SIPTG_Khalid & Sons LLC_B,754,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-09 12:27:58:246,Master,65535,NONE,'0,'00000000,1
+755,SIPTG_Khalid & Sons LLC_S,754,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-09 12:27:59:903,Master,65535,NONE,'0,'00000000,1
+756,SIPTG_Khalid & Sons LLC-2_B,756,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-09 15:40:30:346,Master,65535,NONE,'0,'00000000,1
+757,SIPTG_Khalid & Sons LLC-2_S,756,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-09 15:40:32:703,Master,65535,NONE,'0,'00000000,1
+758,SIPTG_SIP_Bahwan Eng Company_B,758,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-11 16:18:08:586,Master,65535,NONE,'0,'00000000,1
+759,SIPTG_SIP_Bahwan Eng Company_S,758,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-11 16:18:10:413,Master,65535,NONE,'0,'00000000,1
+865,Suez Trac Operation,865,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-12 17:23:17:290,Master,65535,NONE,'0,'00000000,1
+871,Qatari Diar comp,871,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-13 12:08:37:610,Master,65535,NONE,'0,'00000000,1
+760,SIPTG_OPAL/International Busi_B,760,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-18 16:30:39:036,Master,65535,NONE,'0,'00000000,1
+761,SIPTG_OPAL/International Busi_S,760,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-18 16:30:40:850,Master,65535,NONE,'0,'00000000,1
+872,Clean City Trad,872,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-20 10:21:28:030,Master,65535,NONE,'0,'00000000,1
+750,SIPTG_Toque Trde Cntrl Sys_B,750,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-20 10:45:33:760,Master,65535,NONE,'0,'00000000,1
+751,SIPTG_Toque Trde Cntrl Sys_S,750,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-20 10:45:35:403,Master,65535,NONE,'0,'00000000,1
+873,Oman Broadband,873,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-25 11:46:50:573,Master,65535,NONE,'0,'00000000,1
+874,Venus Hotel,874,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-08-31 11:03:18:636,Master,65535,NONE,'0,'00000000,1
+875,Capital Business Cntr,875,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-09-01 15:25:26:696,Master,65535,NONE,'0,'00000000,1
+876,Duqm Petroleum Trmnl,876,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-09-03 12:31:25:816,Master,65535,NONE,'0,'00000000,1
+762,SIPTG_Ajay Enterprises LLC_B,762,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-09-13 13:14:04:646,Master,65535,NONE,'0,'00000000,1
+763,SIPTG_Ajay Enterprises LLC_S,762,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-09-13 13:14:06:316,Master,65535,NONE,'0,'00000000,1
+888,HYDROCARBON CO,888,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-04 18:09:12:600,Master,65535,NONE,'0,'00000000,1
+784,SIPTG_Alizz Islamic Bank_B,784,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-04 19:07:56:930,Master,65535,NONE,'0,'00000000,1
+785,SIPTG_Alizz Islamic Bank_S,784,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-04 19:07:58:880,Master,65535,NONE,'0,'00000000,1
+889,Ministry of Health1,889,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-11 12:06:19:606,Master,65535,NONE,'0,'00000000,1
+890,Ministry of Health2,890,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-11 12:17:08:193,Master,65535,NONE,'0,'00000000,1
+891,Ministry of Health3,891,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-11 12:28:02:470,Master,65535,NONE,'0,'00000000,1
+892,Ministry of Health4,892,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-11 12:38:06:200,Master,65535,NONE,'0,'00000000,1
+894,Urbn trdng&CO LLC1,894,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-11 16:34:26:796,Master,65535,NONE,'0,'00000000,1
+895,Urbn trdng&CO LLC2,895,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-11 16:43:18:833,Master,65535,NONE,'0,'00000000,1
+893,Safeer Slala Hotel,893,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-18 14:50:59:473,Master,65535,NONE,'0,'00000000,1
+788,SIPTG_Safa Poltry Farm_B,788,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-18 14:16:39:100,Master,65535,NONE,'0,'00000000,1
+789,SIPTG_Safa Poltry Farm_S,788,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-18 14:16:40:736,Master,65535,NONE,'0,'00000000,1
+18,MSS_BO_VOIP,18,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-21 09:01:10:896,Master,65535,NONE,'0,'00000000,1
+19,MSS_SO_VOIP,19,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-02-21 09:22:44:740,Master,65535,NONE,'0,'00000000,1
+150,CAI_IGW_MSC,151,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-24 18:18:25:840,Master,65535,NONE,'0,'00000000,1
+790,SIPTG_Saffa PoultryFarm_B,790,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-06 11:37:30:866,Master,65535,NONE,'0,'00000000,1
+791,SIPTG_Saffa PoultryFarm_S,790,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-06 11:37:32:316,Master,65535,NONE,'0,'00000000,1
+792,SIPTG_Bin Hayl Group_B,792,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-07 16:09:00:096,Master,65535,NONE,'0,'00000000,1
+793,SIPTG_Bin Hayl Group_S,792,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-07 16:09:01:770,Master,65535,NONE,'0,'00000000,1
+794,SIPTG_OPALDouglas_OHI_B,794,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-14 10:13:07:856,Master,65535,NONE,'0,'00000000,1
+795,SIPTG_OPALDouglas_OHI_S,794,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-14 10:13:09:353,Master,65535,NONE,'0,'00000000,1
+896,OPALDalma_Energy,896,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-17 16:51:34:146,Master,65535,NONE,'0,'00000000,1
+897,OPALDalma_Energy_2,897,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-17 17:33:20:010,Master,65535,NONE,'0,'00000000,1
+898,Ministry of Health5,898,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-23 12:48:11:100,Master,65535,NONE,'0,'00000000,1
+899,Risktec Solutn Msct,899,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-23 12:58:45:320,Master,65535,NONE,'0,'00000000,1
+1000,National_Hotels_Sheraton,1000,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-28 15:51:20:640,Master,65535,NONE,'0,'00000000,1
+877,Al Mansoor Intnl Co,877,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-09-17 12:31:51:206,Master,65535,NONE,'0,'00000000,1
+748,SIP_Zubair Telecommunication_B,748,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-09-21 13:53:14:810,Master,65535,NONE,'0,'00000000,1
+749,SIP_Zubair Telecommunication_S,748,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-09-21 13:53:16:370,Master,65535,NONE,'0,'00000000,1
+766,SIPTG_Omani Cntr fr Invstmnt_B,766,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-04 13:05:00:353,Master,65535,NONE,'0,'00000000,1
+767,SIPTG_Omani Cntr fr Invstmnt_S,766,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-04 13:05:02:336,Master,65535,NONE,'0,'00000000,1
+768,SIPTG_Omani Cntr fr Invt2-FNP_B,768,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-08 10:02:18:950,Master,65535,NONE,'0,'00000000,1
+769,SIPTG_Omani Cntr fr Invt2-FNP_S,768,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-08 10:02:20:760,Master,65535,NONE,'0,'00000000,1
+770,SIPTG_Ghantoot Transport_B,770,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-08 15:00:12:620,Master,65535,NONE,'0,'00000000,1
+771,SIPTG_Ghantoot Transport_S,770,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-08 15:00:14:370,Master,65535,NONE,'0,'00000000,1
+880,Chaza Oman,880,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-20 13:37:52:126,Master,65535,NONE,'0,'00000000,1
+772,SIPTG_Mace Macro Intl LLC_B,772,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-21 15:50:45:866,Master,65535,NONE,'0,'00000000,1
+773,SIPTG_Mace Macro Intl LLC_S,772,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-21 15:50:47:490,Master,65535,NONE,'0,'00000000,1
+881,Urabcn Trdng & Co,881,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-27 10:13:37:756,Master,65535,NONE,'0,'00000000,1
+882,Urabcn Trdng & Co2,882,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-10-27 11:25:01:680,Master,65535,NONE,'0,'00000000,1
+774,SIPTG_Suhil Bahwn Atomble_B,774,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-03 10:06:52:316,Master,65535,NONE,'0,'00000000,1
+775,SIPTG_Suhil Bahwn Atomble_S,774,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-03 10:06:54:003,Master,65535,NONE,'0,'00000000,1
+776,SIPTG_Mscat Eye Lasr Cnter_B,776,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-12-31 16:26:31:870,Master,65535,NONE,'0,'00000000,1
+777,SIPTG_Mscat Eye Lasr Cnter_S,776,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-12-31 16:26:33:386,Master,65535,NONE,'0,'00000000,1
+778,SIPTG_Servc & Trd Cmpny_B,778,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-23 17:41:42:300,Master,65535,NONE,'0,'00000000,1
+779,SIPTG_Servc & Trd Cmpny_S,778,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-23 17:41:43:880,Master,65535,NONE,'0,'00000000,1
+883,Advnc tech fr elctronic,883,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-26 11:11:28:093,Master,65535,NONE,'0,'00000000,1
+780,SIPTG_Oman Medcl Colge MW_B,780,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-30 11:33:59:123,Master,65535,NONE,'0,'00000000,1
+781,SIPTG_Oman Medcl Colge MW_S,780,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-11-30 11:34:01:746,Master,65535,NONE,'0,'00000000,1
+884,Falcon Turism Invst,884,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-12-23 17:42:52:800,Master,65535,NONE,'0,'00000000,1
+885,Falcon Turism Invst2,885,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2015-12-23 17:45:11:786,Master,65535,NONE,'0,'00000000,1
+611,SIPTG_CCC-GCW MW_B,611,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-03 14:01:26:610,Master,65535,NONE,'0,'00000000,1
+612,SIPTG_CCC-GCW MW_S,611,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-03 14:01:27:923,Master,65535,NONE,'0,'00000000,1
+764,SIPTG_OPAL Nagrjna Cnstrctin_B,764,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-06 12:13:37:626,Master,65535,NONE,'0,'00000000,1
+765,SIPTG_OPAL Nagrjna Cnstrctin_S,764,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-06 12:13:39:140,Master,65535,NONE,'0,'00000000,1
+886,Mscat Insurnc Cmpny,886,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-12 17:52:04:470,Master,65535,NONE,'0,'00000000,1
+782,SIPTG_Ajay_Salalah_B,782,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-17 17:16:01:570,Master,65535,NONE,'0,'00000000,1
+783,SIPTG_Ajay_Salalah_S,782,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-17 17:16:03:370,Master,65535,NONE,'0,'00000000,1
+601,SIPTG_Ajay Enterpriss Fiber_B,601,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-18 16:27:20:986,Master,65535,NONE,'0,'00000000,1
+602,SIPTG_Ajay Enterpriss Fiber_S,601,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-01-18 16:27:22:550,Master,65535,NONE,'0,'00000000,1
+1001,Ministry of Endowments Religiou,1001,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-03-29 17:49:08:273,Master,65535,NONE,'0,'00000000,1
+1005,OPAL Asha Enterprises L.L.C,1005,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-05 11:49:51:903,Master,65535,NONE,'0,'00000000,1
+887,Royal Oman Police,887,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-05 14:16:50:803,Master,65535,NONE,'0,'00000000,1
+1006,Ministry of Endowments & Religious Affai,1006,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-06 14:27:22:126,Master,65535,NONE,'0,'00000000,1
+1007,Ministry of Endowments & Religious Affa3,1007,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-06 14:31:00:776,Master,65535,NONE,'0,'00000000,1
+796,SIPTG_Sharaf DG LLC2_B,796,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-06 15:45:28:710,Master,65535,NONE,'0,'00000000,1
+797,SIPTG_Sharaf DG LLC2_S,796,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-06 15:45:30:460,Master,65535,NONE,'0,'00000000,1
+798,SIPTG_DG Agri & Fishri Batina_B,798,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-10 11:15:24:743,Master,65535,NONE,'0,'00000000,1
+799,SIPTG_DG Agri & Fishri Batina_S,798,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-10 11:15:26:596,Master,65535,NONE,'0,'00000000,1
+1008,Nawa International LLC,1008,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-10 16:01:25:473,Master,65535,NONE,'0,'00000000,1
+1502,SIPTG_Urbn Trding & Contrac LLC_B,1502,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-19 10:21:47:596,Master,65535,NONE,'0,'00000000,1
+1503,SIPTG_Urbn Trding & Contrac LLC_S,1502,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-19 10:21:49:260,Master,65535,NONE,'0,'00000000,1
+1009,New Age Fitness,1009,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-04-28 10:57:14:900,Master,65535,NONE,'0,'00000000,1
+1504,SIPTG_Toqe trd ad cntrl sys_B,1504,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-05-04 10:54:26:263,Master,65535,NONE,'0,'00000000,1
+1505,SIPTG_Toqe trd ad cntrl sys_S,1504,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-05-04 10:54:28:066,Master,65535,NONE,'0,'00000000,1
+1506,Nawras_PRI3,504,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-08 10:01:09:540,Master,65535,NONE,'0,'00000000,1
+1011,OPAL Socat L.L.C,1011,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-05 15:08:21:626,Master,65535,NONE,'0,'00000000,1
+1012,Tuv Rheinland,1012,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-09 09:31:57:180,Master,65535,NONE,'0,'00000000,1
+1508,SIPTG_Hytec & Co LLC_B,1508,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-14 13:40:59:453,Master,65535,NONE,'0,'00000000,1
+1509,SIPTG_Hytec & Co LLC_S,1508,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-14 13:41:01:280,Master,65535,NONE,'0,'00000000,1
+1512,SIPTG_OPAL Trck Oman LLC_B,1512,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-22 10:58:34:793,Master,65535,NONE,'0,'00000000,1
+1513,SIPTG_OPAL Trck Oman LLC_S,1512,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-22 10:58:36:436,Master,65535,NONE,'0,'00000000,1
+1514,SIPTG_Muscat Crown Projects_B,1514,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-23 12:19:02:650,Master,65535,NONE,'0,'00000000,1
+1515,SIPTG_Muscat Crown Projects_S,1514,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-23 12:19:04:343,Master,65535,NONE,'0,'00000000,1
+120,QTEL-IGW1-Tra,110,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-23 13:57:19:633,Master,65535,NONE,'0,'00000000,1
+121,QTEL-IGW2-Tra,111,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-23 13:57:21:370,Master,65535,NONE,'0,'00000000,1
+117,QTEL-IGW3-Tra,112,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-23 13:57:23:116,Master,65535,NONE,'0,'00000000,1
+1516,SIPTG_Toque Trade and Control_B,1516,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-26 11:08:09:990,Master,65535,NONE,'0,'00000000,1
+1517,SIPTG_Toque Trade and Control_S,1516,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-26 11:08:11:586,Master,65535,NONE,'0,'00000000,1
+1510,SIPTG_Safety Technical Services_B,1510,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-28 09:59:45:523,Master,65535,NONE,'0,'00000000,1
+1511,SIPTG_Safety Technical Services_S,1510,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-06-28 09:59:47:156,Master,65535,NONE,'0,'00000000,1
+1013,Al Asala Engineerin,1013,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-04 11:22:49:170,Master,65535,NONE,'0,'00000000,1
+1014,Action Group Holding,1014,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-04 12:12:29:060,Master,65535,NONE,'0,'00000000,1
+1518,SIPTG_Muscat Natnl Dvlpmnt_B,1518,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-11 13:56:30:540,Master,65535,NONE,'0,'00000000,1
+1519,SIPTG_Muscat Natnl Dvlpmnt_S,1518,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-11 13:56:32:136,Master,65535,NONE,'0,'00000000,1
+395,SIPTG_F-Oman 1,395,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-14 11:04:34:246,Master,65535,NONE,'0,'00000000,1
+396,SIPTG_F-Oman 2,396,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-14 11:04:35:930,Master,65535,NONE,'0,'00000000,1
+1520,SIPTG_Sohar SWRO Company LLC_B,1520,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-16 11:28:07:080,Master,65535,NONE,'0,'00000000,1
+1521,SIPTG_Sohar SWRO Company LLC_S,1520,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-16 11:28:08:836,Master,65535,NONE,'0,'00000000,1
+1522,SIPTG_Ibn Sina Pharmacy LLC_B,1522,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-17 16:27:46:613,Master,65535,NONE,'0,'00000000,1
+1523,SIPTG_Ibn Sina Pharmacy LLC_S,1522,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-17 16:27:48:146,Master,65535,NONE,'0,'00000000,1
+1524,SIPTG_The Oman Munitions Production Company_B,1524,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-19 16:03:57:320,Master,65535,NONE,'0,'00000000,1
+1525,SIPTG_The Oman Munitions Production Company_S,1524,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-07-19 16:03:58:980,Master,65535,NONE,'0,'00000000,1
+1526,SIPTG_Action Group Holding LLC_B,1526,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-25 14:56:58:156,Master,65535,NONE,'0,'00000000,1
+1527,SIPTG_Action Group Holding LLC_S,1526,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-25 14:56:59:930,Master,65535,NONE,'0,'00000000,1
+1015,INT Voice IMS Test,1015,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-01 14:40:12:560,Master,65535,NONE,'0,'00000000,1
+1528,SIPTG_Deloitte Touche CO LLC_B,1528,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-04 11:00:08:460,Master,65535,NONE,'0,'00000000,1
+1529,SIPTG_Deloitte Touche CO LLC_S,1528,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-04 11:00:10:090,Master,65535,NONE,'0,'00000000,1
+1532,SIPTG_Ministry Health1_B,1532,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-09 17:12:21:000,Master,65535,NONE,'0,'00000000,1
+1533,SIPTG_Ministry Health1_S,1532,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-09 17:12:22:460,Master,65535,NONE,'0,'00000000,1
+1530,SIPTG_Ministry Health_B,1530,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-09 17:19:03:126,Master,65535,NONE,'0,'00000000,1
+1531,SIPTG_Ministry Health_S,1530,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-09 17:19:04:743,Master,65535,NONE,'0,'00000000,1
+1534,SIPTG_Lulu Hyper Market L.L.C_B,1534,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-15 10:27:59:423,Master,65535,NONE,'0,'00000000,1
+1535,SIPTG_Lulu Hyper Market L.L.C_S,1534,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-15 10:28:00:836,Master,65535,NONE,'0,'00000000,1
+1536,SIPTG_New Investmen Company_B,1536,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-23 11:55:02:130,Master,65535,NONE,'0,'00000000,1
+1537,SIPTG_New Investmen Company_S,1536,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-23 11:55:03:813,Master,65535,NONE,'0,'00000000,1
+1016,CARNELIAN HOTEL,1016,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-08-23 16:08:25:883,Master,65535,NONE,'0,'00000000,1
+1538,SIPTG_Al Asriyah Marble LLC_B,1538,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-16 12:10:54:766,Master,65535,NONE,'0,'00000000,1
+1539,SIPTG_Al Asriyah Marble LLC_S,1538,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-16 12:10:56:440,Master,65535,NONE,'0,'00000000,1
+1548,SIPTG_Oman Trading Est_B,1548,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-09-05 11:09:17:620,Master,65535,NONE,'0,'00000000,1
+1549,SIPTG_Oman Trading Est_S,1548,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-09-05 11:09:19:266,Master,65535,NONE,'0,'00000000,1
+1017,Safeer Hotels Touris,1017,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-09-05 11:51:06:283,Master,65535,NONE,'0,'00000000,1
+1540,SIPTG_Rapid Access LLC_B,1540,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-09-06 11:52:13:913,Master,65535,NONE,'0,'00000000,1
+1541,SIPTG_Rapid Access LLC_S,1540,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-09-06 11:52:15:476,Master,65535,NONE,'0,'00000000,1
+1550,SIPTG_Rakhyoot Tourism Investment_B,1550,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-02 09:39:47:556,Master,65535,NONE,'0,'00000000,1
+1551,SIPTG_Rakhyoot Tourism Investment_S,1550,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-02 09:39:49:373,Master,65535,NONE,'0,'00000000,1
+1542,SIPTG_Safeer Hotel1_B,1542,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 10:44:10:286,Master,65535,NONE,'0,'00000000,1
+1543,SIPTG_Safeer Hotel1_S,1542,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 10:44:12:150,Master,65535,NONE,'0,'00000000,1
+1544,SIPTG_Safeer Hotel2_B,1544,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 10:49:58:530,Master,65535,NONE,'0,'00000000,1
+1545,SIPTG_Safeer Hotel2_S,1544,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 10:50:00:463,Master,65535,NONE,'0,'00000000,1
+1546,SIPTG_Safeer Hotel3_B,1546,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 10:52:46:583,Master,65535,NONE,'0,'00000000,1
+1547,SIPTG_Safeer Hotel3_S,1546,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 10:52:48:196,Master,65535,NONE,'0,'00000000,1
+1552,SIPTG_Alizz Islamic Bank SAOG_B,1552,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 14:42:44:676,Master,65535,NONE,'0,'00000000,1
+1553,SIPTG_Alizz Islamic Bank SAOG_S,1552,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-13 14:42:46:353,Master,65535,NONE,'0,'00000000,1
+1018,Muttrah Media servc,1018,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-10-20 17:51:33:603,Master,65535,NONE,'0,'00000000,1
+1019,Al Balushi Investmnt,1019,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-11-16 18:37:29:726,Master,65535,NONE,'0,'00000000,1
+1554,SIPTG_Ibn Sina Pharmacy FNP_B,1554,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-01 11:13:56:060,Master,65535,NONE,'0,'00000000,1
+1555,SIPTG_Ibn Sina Pharmacy FNP_S,1554,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-01 11:13:57:780,Master,65535,NONE,'0,'00000000,1
+1556,SIPTG_Arabian Industries LLC_B,1556,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-14 11:55:42:513,Master,65535,NONE,'0,'00000000,1
+1557,SIPTG_Arabian Industries LLC_S,1556,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-14 11:55:44:113,Master,65535,NONE,'0,'00000000,1
+1558,SIPTG_Al Madina Insrnce_B,1558,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-20 10:50:39:883,Master,65535,NONE,'0,'00000000,1
+1559,SIPTG_Al Madina Insrnce_S,1558,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2016-12-20 10:50:41:636,Master,65535,NONE,'0,'00000000,1
+1560,SIPTG_Safety Technical Srvc_B,1560,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-01-05 16:16:09:410,Master,65535,NONE,'0,'00000000,1
+1561,SIPTG_Safety Technical Srvc_S,1560,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-01-05 16:16:11:183,Master,65535,NONE,'0,'00000000,1
+1020,Natinl Eng Cnt cmpny,1020,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-01-10 16:53:46:786,Master,65535,NONE,'0,'00000000,1
+1021,DLA PIPER OMAN LLP,1021,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-01-16 15:20:56:480,Master,65535,NONE,'0,'00000000,1
+1024,Suhail Bahwan Automo,1024,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-02 11:51:37:360,Master,65535,NONE,'0,'00000000,1
+1562,SIPTG_Suhail Bahwan Autombl_B,1562,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-02 16:50:58:396,Master,65535,NONE,'0,'00000000,1
+1563,SIPTG_Suhail Bahwan Autombl_S,1562,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-02 16:51:00:173,Master,65535,NONE,'0,'00000000,1
+1568,SIPTG_Qarat Al-Milh Petroleum LLC_B,1568,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-17 09:58:05:450,Master,65535,NONE,'0,'00000000,1
+1569,SIPTG_Qarat Al-Milh Petroleum LLC_S,1568,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-17 09:58:07:443,Master,65535,NONE,'0,'00000000,1
+1570,SIPTG_Arabian Industries Projects LLC_B,1570,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-16 10:15:43:813,Master,65535,NONE,'0,'00000000,1
+1571,SIPTG_Arabian Industries Projects LLC_S,1570,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-16 10:15:45:603,Master,65535,NONE,'0,'00000000,1
+1572,SIPTG_Said Al Shahry Law Office_B,1572,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-27 15:05:49:426,Master,65535,NONE,'0,'00000000,1
+1573,SIPTG_Said Al Shahry Law Office_S,1572,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-27 15:05:51:396,Master,65535,NONE,'0,'00000000,1
+1022,OPLAbraj Energy Serv,1022,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-14 12:02:05:283,Master,65535,NONE,'0,'00000000,1
+1023,OPLAbraj Energy Ser2,1023,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-14 12:02:20:116,Master,65535,NONE,'0,'00000000,1
+1576,SIPTG_Indian School AlKabir_B,1576,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-19 17:45:59:446,Master,65535,NONE,'0,'00000000,1
+1577,SIPTG_Indian School AlKabir_S,1576,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-19 17:46:01:156,Master,65535,NONE,'0,'00000000,1
+1578,SIPTG_APL Logistics Oman_B,1578,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-26 15:58:52:273,Master,65535,NONE,'0,'00000000,1
+1579,SIPTG_APL Logistics Oman_S,1578,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-26 15:58:53:830,Master,65535,NONE,'0,'00000000,1
+1026,Brka Deslation Cmpny,1026,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-02-27 16:58:58:610,Master,65535,NONE,'0,'00000000,1
+1025,Bin Salim Entrprse,1025,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-03-02 17:31:50:386,Master,65535,NONE,'0,'00000000,1
+1027,Sharaf DG LLC,1027,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-03-08 13:44:55:800,Master,65535,NONE,'0,'00000000,1
+1580,SIPTG_Oman Medical Board_B,1580,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-03-19 13:55:50:173,Master,65535,NONE,'0,'00000000,1
+1581,SIPTG_Oman Medical Board_S,1580,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-03-19 13:55:52:020,Master,65535,NONE,'0,'00000000,1
+1584,SIPTG_Habib Bank Limited_B,1584,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-03-27 16:57:22:603,Master,65535,NONE,'0,'00000000,1
+1585,SIPTG_Habib Bank Limited_S,1584,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-03-27 16:57:24:176,Master,65535,NONE,'0,'00000000,1
+1586,SIPTG_Catering Co LLC_B,1586,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-02 14:48:36:500,Master,65535,NONE,'0,'00000000,1
+1587,SIPTG_Catering Co LLC_S,1586,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-02 14:48:38:113,Master,65535,NONE,'0,'00000000,1
+1566,SIPTG_Habib Bank Ltd2_B,1566,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-02 15:50:20:333,Master,65535,NONE,'0,'00000000,1
+1567,SIPTG_Habib Bank Ltd2_S,1566,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-02 15:50:21:950,Master,65535,NONE,'0,'00000000,1
+1588,SIPTG_ALNSR LLHLWL_B,1588,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-03 15:17:31:076,Master,65535,NONE,'0,'00000000,1
+1589,SIPTG_ALNSR LLHLWL_S,1588,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-03 15:17:33:790,Master,65535,NONE,'0,'00000000,1
+1564,SIPTG_Habib Bank Ltd1_B,1564,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-03 16:23:06:470,Master,65535,NONE,'0,'00000000,1
+1565,SIPTG_Habib Bank Ltd1_S,1564,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-03 16:23:08:146,Master,65535,NONE,'0,'00000000,1
+1574,SIPTG_Ernst & Young_B,1574,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-22 16:04:42:760,Master,65535,NONE,'0,'00000000,1
+1575,SIPTG_Ernst & Young_S,1574,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-22 16:04:44:463,Master,65535,NONE,'0,'00000000,1
+1582,SIPTG_Oman Trading Est. LLC_B,1582,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-05 11:30:07:010,Master,65535,NONE,'0,'00000000,1
+1583,SIPTG_Oman Trading Est. LLC_S,1582,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-05 11:30:08:476,Master,65535,NONE,'0,'00000000,1
+1596,SIPTG_CCC-MOO_B,1596,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-11 16:21:27:196,Master,65535,NONE,'0,'00000000,1
+1597,SIPTG_CCC-MOO_S,1596,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-11 16:21:29:583,Master,65535,NONE,'0,'00000000,1
+1598,SIPTG_Colge of Banking & Financial_B,1598,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-16 15:43:43:206,Master,65535,NONE,'0,'00000000,1
+1599,SIPTG_Colge of Banking & Financial_S,1598,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-16 15:43:45:220,Master,65535,NONE,'0,'00000000,1
+1600,SIPTG_Travel Services_B,1600,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-26 11:21:06:216,Master,65535,NONE,'0,'00000000,1
+1601,SIPTG_Travel Services_S,1600,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-26 11:21:08:056,Master,65535,NONE,'0,'00000000,1
+1029,Ministry Of Defenc2,1029,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-26 17:23:33:096,Master,65535,NONE,'0,'00000000,1
+1028,Ministry Of Defenc1,1028,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-04-26 17:24:04:496,Master,65535,NONE,'0,'00000000,1
+155,AWSAR_Nat,156,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-25 15:07:34:456,Master,65535,NONE,'0,'00000000,1
+156,AWSAR_Int,156,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-25 15:07:36:336,Master,65535,NONE,'0,'00000000,1
+1602,SIPTG_MinistryofManpower_B,1602,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-01 16:24:09:160,Master,65535,NONE,'0,'00000000,1
+1603,SIPTG_MinistryofManpower_S,1602,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-01 16:24:10:723,Master,65535,NONE,'0,'00000000,1
+1604,SIPTG_MOD Sultan Arm Signals_B,1604,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-02 12:30:58:233,Master,65535,NONE,'0,'00000000,1
+1605,SIPTG_MOD Sultan Arm Signals_S,1604,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-02 12:31:01:250,Master,65535,NONE,'0,'00000000,1
+1594,SIPTG_Zawawi_Trading_B,1594,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-07 16:31:59:346,Master,65535,NONE,'0,'00000000,1
+1595,SIPTG_Zawawi_Trading_S,1594,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-07 16:32:03:210,Master,65535,NONE,'0,'00000000,1
+1610,SIPTG_Bahwan Eng cmpnyB_B,1610,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-21 16:06:16:063,Master,65535,NONE,'0,'00000000,1
+1611,SIPTG_Bahwan Eng cmpnyB_S,1610,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-21 16:06:17:700,Master,65535,NONE,'0,'00000000,1
+1608,SIPTG_Oman Oil Mrkting_B,1608,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-25 17:44:22:090,Master,65535,NONE,'0,'00000000,1
+1609,SIPTG_Oman Oil Mrkting_S,1608,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-25 17:44:23:810,Master,65535,NONE,'0,'00000000,1
+1612,SIPTG_Oman Oil Mrkting2_B,1612,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-25 17:50:16:940,Master,65535,NONE,'0,'00000000,1
+1613,SIPTG_Oman Oil Mrkting2_S,1612,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-25 17:50:18:556,Master,65535,NONE,'0,'00000000,1
+1030,SC Tubular Solution,1030,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-05-28 15:04:19:933,Master,65535,NONE,'0,'00000000,1
+1620,SIPTG_Oman Post_B,1620,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-01 11:16:35:666,Master,65535,NONE,'0,'00000000,1
+1621,SIPTG_Oman Post_S,1620,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-01 11:16:37:406,Master,65535,NONE,'0,'00000000,1
+1031,Hoehler Al Salmy,1031,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-07 11:51:04:736,Master,65535,NONE,'0,'00000000,1
+1628,SIPTG_Arkan Majan intl_B,1628,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-07 11:55:05:890,Master,65535,NONE,'0,'00000000,1
+1629,SIPTG_Arkan Majan intl_S,1628,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-07 11:55:07:890,Master,65535,NONE,'0,'00000000,1
+1618,SIPTG_Al Khalili United FNP_B,1618,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-07 13:54:46:493,Master,65535,NONE,'0,'00000000,1
+1619,SIPTG_Al Khalili United FNP_S,1618,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-07 13:54:47:990,Master,65535,NONE,'0,'00000000,1
+1634,SIPTG_Arabian Industries Prjct_B,1634,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-08 16:25:16:616,Master,65535,NONE,'0,'00000000,1
+1635,SIPTG_Arabian Industries Prjct_S,1634,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-08 16:25:18:436,Master,65535,NONE,'0,'00000000,1
+1632,SIPTG_Alizz Islamic Bank2 _B,1632,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-11 13:55:00:030,Master,65535,NONE,'0,'00000000,1
+1633,SIPTG_Alizz Islamic Bank2 _S,1632,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-11 13:55:01:673,Master,65535,NONE,'0,'00000000,1
+1630,SIPTG_SATA company_B,1630,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-15 13:45:20:120,Master,65535,NONE,'0,'00000000,1
+1631,SIPTG_SATA company_S,1630,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-15 13:45:21:883,Master,65535,NONE,'0,'00000000,1
+190,SIPTG_Airtel_VoIP_B,190,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-21 11:11:44:196,Master,65535,NONE,'0,'00000000,1
+191,SIPTG_Airtel_VoIP_S,190,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-21 11:11:45:853,Master,65535,NONE,'0,'00000000,1
+1636,SIPTG_Oman Post2_B,1636,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-22 09:29:10:550,Master,65535,NONE,'0,'00000000,1
+1637,SIPTG_Oman Post2_S,1636,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-06-22 09:29:12:090,Master,65535,NONE,'0,'00000000,1
+1638,SIPTG_Arabian Industries_B,1638,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-02 17:02:29:563,Master,65535,NONE,'0,'00000000,1
+1639,SIPTG_Arabian Industries_S,1638,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-02 17:02:31:160,Master,65535,NONE,'0,'00000000,1
+1624,SIPTG_Habib Bank_B,1624,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-09 11:17:20:240,Master,65535,NONE,'0,'00000000,1
+1625,SIPTG_Habib Bank_S,1624,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-09 11:17:21:800,Master,65535,NONE,'0,'00000000,1
+1626,SIPTG_Habib Bank Lted_B,1626,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-10 17:39:04:843,Master,65535,NONE,'0,'00000000,1
+1627,SIPTG_Habib Bank Lted_S,1626,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-10 17:39:06:610,Master,65535,NONE,'0,'00000000,1
+1616,SIPTG_Habib Bank Lt_B,1616,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-17 17:26:09:670,Master,65535,NONE,'0,'00000000,1
+1617,SIPTG_Habib Bank Lt_S,1616,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-17 17:26:12:280,Master,65535,NONE,'0,'00000000,1
+1644,SIPTG_Ministry of agricltre & fish_B,1644,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-18 16:49:37:853,Master,65535,NONE,'0,'00000000,1
+1645,SIPTG_Ministry of agricltre & fish_S,1644,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-18 16:49:39:430,Master,65535,NONE,'0,'00000000,1
+1646,SIPTG_Ministry of agricltre & fish1_B,1646,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-18 16:50:27:330,Master,65535,NONE,'0,'00000000,1
+1647,SIPTG_Ministry of agricltre & fish1_S,1646,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-18 16:50:28:990,Master,65535,NONE,'0,'00000000,1
+1640,SIPTG_Alizz Islamc Bank_B,1640,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-20 17:06:54:173,Master,65535,NONE,'0,'00000000,1
+1641,SIPTG_Alizz Islamc Bank_S,1640,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-20 17:06:55:866,Master,65535,NONE,'0,'00000000,1
+1642,SIPTG_Alizz Islamc Bank2_B,1642,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-20 17:08:37:323,Master,65535,NONE,'0,'00000000,1
+1643,SIPTG_Alizz Islamc Bank2_S,1642,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-07-20 17:08:38:956,Master,65535,NONE,'0,'00000000,1
+1648,SIPTG_Habib Bnk Liitd1_B,1648,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-07 16:37:03:386,Master,65535,NONE,'0,'00000000,1
+1649,SIPTG_Habib Bnk Liitd1_S,1648,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-07 16:37:05:433,Master,65535,NONE,'0,'00000000,1
+1650,SIPTG_Habib Bnk Liitd2_B,1650,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-07 16:50:44:490,Master,65535,NONE,'0,'00000000,1
+1651,SIPTG_Habib Bnk Liitd2_S,1650,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-07 16:50:46:183,Master,65535,NONE,'0,'00000000,1
+1032,Trvel services cmpny,1032,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-08-10 13:32:24:193,Master,65535,NONE,'0,'00000000,1
+1033,Bank Muscat HQ,1033,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-01 09:28:28:136,Master,65535,NONE,'0,'00000000,1
+1034,Ministry Man Power,1034,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-01 16:44:04:840,Master,65535,NONE,'0,'00000000,1
+1035,Minerals Development,1035,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-01 16:44:49:690,Master,65535,NONE,'0,'00000000,1
+1652,SIPTG_Faisal Al Rashdi advocate & legal consul_B,1652,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-01 16:51:13:070,Master,65535,NONE,'0,'00000000,1
+1653,SIPTG_Faisal Al Rashdi advocate & legal consul_S,1652,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-01 16:51:15:066,Master,65535,NONE,'0,'00000000,1
+1037,Standard Chartered Bank-Quram,1037,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-02 06:38:51:316,Master,65535,NONE,'0,'00000000,1
+1654,SIPTG_Oman Trading Est. LLCB_B,1654,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-04 16:44:59:986,Master,65535,NONE,'0,'00000000,1
+1655,SIPTG_Oman Trading Est. LLCB_S,1654,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-04 16:45:01:680,Master,65535,NONE,'0,'00000000,1
+1656,SIPTG_Denton & Co Oman Branch_B,1656,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-10 13:57:06:930,Master,65535,NONE,'0,'00000000,1
+1657,SIPTG_Denton & Co Oman Branch_S,1656,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-10 13:57:08:886,Master,65535,NONE,'0,'00000000,1
+1662,SIPTG_Telal Al Qurum Real Estate_B,1662,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-12 13:28:52:636,Master,65535,NONE,'0,'00000000,1
+1663,SIPTG_Telal Al Qurum Real Estate_S,1662,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-12 13:28:54:433,Master,65535,NONE,'0,'00000000,1
+1664,SIPTG_Arabian Industries Projects LLC1_B,1664,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-09 16:48:47:533,Master,65535,NONE,'0,'00000000,1
+1665,SIPTG_Arabian Industries Projects LLC1_S,1664,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-09 16:48:49:343,Master,65535,NONE,'0,'00000000,1
+1038,KKT LLC,1038,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-12 14:51:07:396,Master,65535,NONE,'0,'00000000,1
+1658,SIPTG_ZUBAIR AUTOMOTIVE LLC_B,1658,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-24 09:01:05:463,Master,65535,NONE,'0,'00000000,1
+1659,SIPTG_ZUBAIR AUTOMOTIVE LLC_S,1658,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-24 09:01:07:310,Master,65535,NONE,'0,'00000000,1
+1660,SIPTG_ Al Ansari Trading Ent_B,1660,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-26 12:21:52:503,Master,65535,NONE,'0,'00000000,1
+1661,SIPTG_ Al Ansari Trading Ent_S,1660,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-10-26 12:21:54:343,Master,65535,NONE,'0,'00000000,1
+1040,Faisal Al Rashdi advocate & Legal,1040,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-02 15:55:44:570,Master,65535,NONE,'0,'00000000,1
+1041,Jenan Al-Bashaer LLC,1041,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-08 15:08:13:296,Master,65535,NONE,'0,'00000000,1
+1672,SIPTG_Fatma Al Mamari Advocacy and Legal Consu_B,1672,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-15 15:10:21:960,Master,65535,NONE,'0,'00000000,1
+1673,SIPTG_Fatma Al Mamari Advocacy and Legal Consu_S,1672,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-15 15:10:24:516,Master,65535,NONE,'0,'00000000,1
+146,SIPTG_LANCK2_Incoming_VoIP_S,143,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-28 11:46:52:570,Master,65535,NONE,'0,'00000000,1
+147,SIPTG_LANCK2_Outgoing_VoIP_B,143,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-28 11:49:10:870,Master,65535,NONE,'0,'00000000,1
+148,SIPTG_LANCK2_Outgoing_VoIP_S,143,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-28 11:49:12:676,Master,65535,NONE,'0,'00000000,1
+1058,Ministry of Oil Gas,1058,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-31 13:10:32:290,Master,65535,NONE,'0,'00000000,1
+1055,Pricewaterhouse1,1055,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-31 16:07:35:886,Master,65535,NONE,'0,'00000000,1
+1674,SIPTG_Howden Insurance Brokers LLC_B,1674,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-19 15:08:16:180,Master,65535,NONE,'0,'00000000,1
+1675,SIPTG_Howden Insurance Brokers LLC_S,1674,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-19 15:08:17:923,Master,65535,NONE,'0,'00000000,1
+1676,SIPTG_Catering And Supplies Co LLC_B,1676,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-20 13:41:46:710,Master,65535,NONE,'0,'00000000,1
+1677,SIPTG_Catering And Supplies Co LLC_S,1676,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-20 13:41:49:050,Master,65535,NONE,'0,'00000000,1
+1678,SIPTG_Bank Muscat DR Site_B,1678,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-23 15:06:41:940,Master,65535,NONE,'0,'00000000,1
+1679,SIPTG_Bank Muscat DR Site_S,1678,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-11-23 15:06:43:603,Master,65535,NONE,'0,'00000000,1
+1680,SIPTG_AL-GHADEER MINERAL WATER _B,1680,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-06 13:42:01:636,Master,65535,NONE,'0,'00000000,1
+1681,SIPTG_AL-GHADEER MINERAL WATER _S,1680,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-06 13:42:03:756,Master,65535,NONE,'0,'00000000,1
+402,SIPTG_TeO Global International_B,402,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-07 16:05:47:546,Master,65535,NONE,'0,'00000000,1
+403,SIPTG_TeO Global International_S,402,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-07 16:05:50:283,Master,65535,NONE,'0,'00000000,1
+1042,Resolute United Trading,1042,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-11 10:11:55:293,Master,65535,NONE,'0,'00000000,1
+1043,Al Meera Markets,1043,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-12 11:15:38:626,Master,65535,NONE,'0,'00000000,1
+1682,SIPTG_Arabian Industries Projects LLC2,1682,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-17 14:02:26:803,Master,65535,NONE,'0,'00000000,1
+1683,SIPTG_Arabian Industries Projects LLC3,1682,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-17 14:03:17:930,Master,65535,NONE,'0,'00000000,1
+1684,SIPTG_Shanfari Group Of Companies_B,1684,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-17 14:19:28:700,Master,65535,NONE,'0,'00000000,1
+1685,SIPTG_Shanfari Group Of Companies_S,1684,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-17 14:19:31:080,Master,65535,NONE,'0,'00000000,1
+1686,SIPTG_The Oman Munitions Production Company2_B,1686,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-19 11:39:17:066,Master,65535,NONE,'0,'00000000,1
+1687,SIPTG_The Oman Munitions Production Company2_S,1686,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-19 11:39:21:216,Master,65535,NONE,'0,'00000000,1
+1688,SIPTG_Occupational Training Institute _B,1688,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-27 09:35:47:900,Master,65535,NONE,'0,'00000000,1
+1689,SIPTG_Occupational Training Institute _S,1688,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-27 09:35:49:940,Master,65535,NONE,'0,'00000000,1
+1045,Oman Gulf Enterprise,1045,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-27 14:40:22:200,Master,65535,NONE,'0,'00000000,1
+1044,Kayan Al Omaniya,1044,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2017-12-27 14:41:23:556,Master,65535,NONE,'0,'00000000,1
+1692,SIPTG_Muscat Electronics LLC_B,1692,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-14 10:20:58:780,Master,65535,NONE,'0,'00000000,1
+1693,SIPTG_Muscat Electronics LLC_S,1692,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-14 10:21:00:900,Master,65535,NONE,'0,'00000000,1
+1690,SIPTG_MARS OVERSEAS LLC_B,1690,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-18 15:53:40:260,Master,65535,NONE,'0,'00000000,1
+1691,SIPTG_MARS OVERSEAS LLC_S,1690,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-18 15:53:42:540,Master,65535,NONE,'0,'00000000,1
+1698,SIPTG_Ooredoo business B two B_B,1698,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-25 10:36:22:783,Master,65535,NONE,'0,'00000000,1
+1699,SIPTG_Ooredoo business B two B_S,1698,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-25 10:36:25:060,Master,65535,NONE,'0,'00000000,1
+1046,Ooredoo business B2B,1046,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-25 10:42:15:800,Master,65535,NONE,'0,'00000000,1
+1700,SIPTG_Anamaa Poultry Co.S.A.O.C_B,1700,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-28 16:13:23:883,Master,65535,NONE,'0,'00000000,1
+1701,SIPTG_Anamaa Poultry Co.S.A.O.C_S,1700,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-28 16:13:25:876,Master,65535,NONE,'0,'00000000,1
+1047,Enova Facilities & Energy,1047,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-28 16:31:46:670,Master,65535,NONE,'0,'00000000,1
+1694,SIPTG_Ministry of Oil & Gas_B,1694,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-29 13:30:02:653,Master,65535,NONE,'0,'00000000,1
+1695,SIPTG_Ministry of Oil & Gas_S,1694,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-29 13:30:04:540,Master,65535,NONE,'0,'00000000,1
+1696,SIPTG_Ministry of Oil & Gas2_B,1696,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-29 13:32:16:286,Master,65535,NONE,'0,'00000000,1
+1697,SIPTG_Ministry of Oil & Gas2_S,1696,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-01-29 13:32:18:230,Master,65535,NONE,'0,'00000000,1
+1702,SIPTG_Global Logistics (Oman) LLC_B,1702,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-02-13 16:54:58:660,Master,65535,NONE,'0,'00000000,1
+1703,SIPTG_Global Logistics (Oman) LLC_S,1702,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-02-13 16:55:00:540,Master,65535,NONE,'0,'00000000,1
+1704,SIPTG_Degremont Middle East LLC_B,1704,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-02-15 13:53:41:866,Master,65535,NONE,'0,'00000000,1
+1705,SIPTG_Degremont Middle East LLC_S,1704,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-02-15 13:53:43:670,Master,65535,NONE,'0,'00000000,1
+1710,SIPTG_KIMS Oman hsptl1_B,1710,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-04 19:30:46:246,Master,65535,NONE,'0,'00000000,1
+1711,SIPTG_KIMS Oman hsptl1_S,1710,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-04 19:30:48:096,Master,65535,NONE,'0,'00000000,1
+1712,SIPTG_KIMS Oman hsptl2l_B,1712,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-04 19:34:46:166,Master,65535,NONE,'0,'00000000,1
+1713,SIPTG_KIMS Oman hsptl2l_S,1712,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-04 19:34:48:260,Master,65535,NONE,'0,'00000000,1
+1708,SIPTG_Salem Saif & BROs_B,1708,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-04 21:21:15:740,Master,65535,NONE,'0,'00000000,1
+1709,SIPTG_Salem Saif & BROs_S,1708,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-04 21:21:18:246,Master,65535,NONE,'0,'00000000,1
+1706,SIPTG_Qatar Embassy_B,1706,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-05 16:47:31:723,Master,65535,NONE,'0,'00000000,1
+1707,SIPTG_Qatar Embassy_S,1706,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-05 16:47:33:696,Master,65535,NONE,'0,'00000000,1
+1048,Goldn Tulip htl nzwa,1048,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-06 17:23:55:033,Master,65535,NONE,'0,'00000000,1
+1714,SIPTG_Lulu hpr mrkt llc_B,1714,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-14 15:18:55:956,Master,65535,NONE,'0,'00000000,1
+1715,SIPTG_Lulu hpr mrkt llc_S,1714,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-14 15:18:57:640,Master,65535,NONE,'0,'00000000,1
+1716,SIPTG_Petrofac Oman LLC_B,1716,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-26 11:55:15:666,Master,65535,NONE,'0,'00000000,1
+1717,SIPTG_Petrofac Oman LLC_S,1716,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-26 11:55:17:433,Master,65535,NONE,'0,'00000000,1
+1049,National Trainingfnd,1049,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-03-29 13:59:59:540,Master,65535,NONE,'0,'00000000,1
+1051,Al Qahtani Mgmt,1051,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-02 09:54:47:593,Master,65535,NONE,'0,'00000000,1
+1722,SIPTG_CCC-GAZ_B,1722,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-03 10:15:35:926,Master,65535,NONE,'0,'00000000,1
+1723,SIPTG_CCC-GAZ_S,1722,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-03 10:15:38:076,Master,65535,NONE,'0,'00000000,1
+1720,SIPTG_Petrofac E C LLC_B,1720,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-03 10:16:16:326,Master,65535,NONE,'0,'00000000,1
+1721,SIPTG_Petrofac E C LLC_S,1720,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-03 10:16:18:870,Master,65535,NONE,'0,'00000000,1
+1726,SIPTG_SalamAir SAOC_B,1726,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-11 17:40:15:210,Master,65535,NONE,'0,'00000000,1
+1727,SIPTG_SalamAir SAOC_S,1726,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-11 17:40:17:426,Master,65535,NONE,'0,'00000000,1
+1724,SIPTG_Oman Cables Industry_B,1724,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-17 14:58:49:606,Master,65535,NONE,'0,'00000000,1
+1725,SIPTG_Oman Cables Industry_S,1724,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-17 14:58:51:920,Master,65535,NONE,'0,'00000000,1
+1728,SIPTG_Osool Gulf Invstmnt_B,1728,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-18 16:33:16:186,Master,65535,NONE,'0,'00000000,1
+1729,SIPTG_Osool Gulf Invstmnt_S,1728,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-18 16:33:18:120,Master,65535,NONE,'0,'00000000,1
+1053,Takatuf Petrofacoman,1053,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-04-23 16:48:30:356,Master,65535,NONE,'0,'00000000,1
+1730,SIPTG_PricewaterhouseCoopers _B,1730,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-01 17:57:34:893,Master,65535,NONE,'0,'00000000,1
+1731,SIPTG_PricewaterhouseCoopers _S,1730,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-01 17:57:36:716,Master,65535,NONE,'0,'00000000,1
+1054,PricewaterhouseCoope,1054,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-03 15:02:33:850,Master,65535,NONE,'0,'00000000,1
+195,SIPTG_Eris_VoIP_B,195,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-14 09:09:54:740,Master,65535,NONE,'0,'00000000,1
+196,SIPTG_Eris_VoIP_S,195,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-14 09:09:56:890,Master,65535,NONE,'0,'00000000,1
+1056,Bank Dhofar0,1056,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-21 11:51:04:363,Master,65535,NONE,'0,'00000000,1
+1057,Bank Dhofar1,1057,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-21 11:53:26:236,Master,65535,NONE,'0,'00000000,1
+1736,SIPTG_Madinat Sandan LLC_B,1736,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-21 13:43:00:366,Master,65535,NONE,'0,'00000000,1
+1737,SIPTG_Madinat Sandan LLC_S,1736,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-21 13:43:02:303,Master,65535,NONE,'0,'00000000,1
+143,SIPTG_LANCK_Incoming_VoIP_B,143,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-28 11:08:09:910,Master,65535,NONE,'0,'00000000,1
+144,SIPTG_LANCK_Incoming_VoIP_S,143,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-28 11:08:12:450,Master,65535,NONE,'0,'00000000,1
+145,SIPTG_LANCK2_Incoming_VoIP_B,143,Cyclic,Unrent,Un Modified,'0,Second,Invalid,'0,2018-05-28 11:46:50:770,Master,65535,NONE,'0,'00000000,1
