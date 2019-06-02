@@ -82,3 +82,23 @@ for c in str.lower():
     count.setdefault(c, 0)
     count[c] += 1
 pprint.pprint(count)
+
+# Iterators
+a = {1: 'alice', 2: 'bob', 3: 'charlie'}
+it = iter(a)
+print(type(it))
+while True:
+    try:
+        print(next(it), end=' ')
+    except StopIteration:
+        break
+print()
+it = iter(a)
+for x in it:
+    print(x, end=' ')       #does the same as above
+print()
+it = a.items()
+print(type(it))
+print(it)
+
+
